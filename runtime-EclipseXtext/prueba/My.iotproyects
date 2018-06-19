@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<es.udima.cesarlaso.tfm.iotproyects:IotProyect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:es.udima.cesarlaso.tfm.communications.programs="http://tfm.cesarlaso.udima.es/communications/programs" xmlns:es.udima.cesarlaso.tfm.deploymentdevices="http://tfm.cesarlaso.udima.es/deploymentdevices" xmlns:es.udima.cesarlaso.tfm.gpios="http://tfm.cesarlaso.udima.es/gpios" xmlns:es.udima.cesarlaso.tfm.healthmonitors="http://tfm.cesarlaso.udima.es/healthmonitors" xmlns:es.udima.cesarlaso.tfm.iotproyects="http://tfm.cesarlaso.udima.es/iotproyects" name="Encender led con pulsador o remotamente" productCode="1" version="1">
+  <program state="Principal">
+    <states name="Principal">
+      <events xsi:type="es.udima.cesarlaso.tfm.communications.programs:RemoteEvent" identifier="encender_led"/>
+    </states>
+    <states name="arranque"/>
+    <gpioAliases xsi:type="es.udima.cesarlaso.tfm.gpios:DigitalInputPin" number="1" name="interruptor"/>
+    <gpioAliases xsi:type="es.udima.cesarlaso.tfm.gpios:DigitalOutputPin" number="2" name="led"/>
+    <remoteIdentifiers xsi:type="es.udima.cesarlaso.tfm.communications.programs:RemoteEventIdentifier" name="encender_led"/>
+  </program>
+  <deploymentDevice xsi:type="es.udima.cesarlaso.tfm.deploymentdevices:Raspberry"/>
+  <healthMonitors xsi:type="es.udima.cesarlaso.tfm.healthmonitors:StorageItem"/>
+</es.udima.cesarlaso.tfm.iotproyects:IotProyect>

@@ -1,0 +1,65 @@
+#
+
+pluginName = Communications Editor
+providerName = www.example.org
+
+_UI_CommunicationsEditor_menu = &Communications Editor
+
+_UI_CreateChild_menu_item = &New Child
+_UI_CreateSibling_menu_item = N&ew Sibling
+
+_UI_ShowPropertiesView_menu_item = Show &Properties View
+_UI_RefreshViewer_menu_item = &Refresh
+
+_UI_SelectionPage_label = Selection
+_UI_ParentPage_label = Parent
+_UI_ListPage_label = List
+_UI_TreePage_label = Tree
+_UI_TablePage_label = Table
+_UI_TreeWithColumnsPage_label = Tree with Columns
+_UI_ObjectColumn_label = Object
+_UI_SelfColumn_label = Self
+
+_UI_NoObjectSelected = Selected Nothing
+_UI_SingleObjectSelected = Selected Object: {0}
+_UI_MultiObjectSelected = Selected {0} Objects
+
+_UI_OpenEditorError_label = Open Editor
+
+_UI_Wizard_category = Example EMF Model Creation Wizards
+
+_UI_CreateModelError_message = Problems encountered in file "{0}"
+
+_UI_CommunicationsModelWizard_label = Communications Model
+_UI_CommunicationsModelWizard_description = Create a new Communications model
+
+_UI_CommunicationsEditor_label = Communications Model Editor
+
+_UI_CommunicationsEditorFilenameDefaultBase = My
+_UI_CommunicationsEditorFilenameExtensions = communications
+
+_UI_Wizard_label = New
+
+_WARN_FilenameExtension = The file name must end in ''.{0}''
+_WARN_FilenameExtensions = The file name must have one of the following extensions: {0}
+
+_UI_ModelObject = &Model Object
+_UI_XMLEncoding = &XML Encoding
+_UI_XMLEncodingChoices = UTF-8 ASCII UTF-16 UTF-16BE UTF-16LE ISO-8859-1
+_UI_Wizard_initial_object_description = Select a model object to create
+
+_UI_FileConflict_label = File Conflict
+_WARN_FileConflict = There are unsaved changes that conflict with changes made outside the editor.  Do you wish to discard this editor's changes?
+
+_UI_CommunicationseventsEditor_menu = &Communicationsevents Editor
+_UI_CommunicationseventsModelWizard_label = Communicationsevents Model
+_UI_CommunicationseventsModelWizard_description = Create a new Communicationsevents model
+_UI_CommunicationseventsEditor_label = Communicationsevents Model Editor
+_UI_CommunicationseventsEditorFilenameDefaultBase = My
+_UI_CommunicationseventsEditorFilenameExtensions = communicationsevents
+_UI_CommunicationshealthsEditor_menu = &Communicationshealths Editor
+_UI_CommunicationshealthsModelWizard_label = Communicationshealths Model
+_UI_CommunicationshealthsModelWizard_description = Create a new Communicationshealths model
+_UI_CommunicationshealthsEditor_label = Communicationshealths Model Editor
+_UI_CommunicationshealthsEditorFilenameDefaultBase = My
+_UI_CommunicationshealthsEditorFilenameExtensions = communicationshealths

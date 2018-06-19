@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/es.udima.cesarlaso.tfm/src" modelPluginID="es.udima.cesarlaso.tfm"
+    modelName="Timers" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    usedGenPackages="Events.genmodel#//events" operationReflection="true" importOrganizing="true">
+  <foreignModel>Timers.ecore</foreignModel>
+  <genPackages prefix="Timers" basePackage="es.udima.cesarlaso.tfm" disposableProviderFactory="true"
+      ecorePackage="Timers.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Timers.ecore#//TimeUnitType">
+      <genEnumLiterals ecoreEnumLiteral="Timers.ecore#//TimeUnitType/Millisecond"/>
+      <genEnumLiterals ecoreEnumLiteral="Timers.ecore#//TimeUnitType/Second"/>
+      <genEnumLiterals ecoreEnumLiteral="Timers.ecore#//TimeUnitType/Minute"/>
+      <genEnumLiterals ecoreEnumLiteral="Timers.ecore#//TimeUnitType/Hour"/>
+    </genEnums>
+    <genClasses image="false" ecoreClass="Timers.ecore#//TimerEvent"/>
+    <genClasses ecoreClass="Timers.ecore#//NowEvent"/>
+    <genClasses ecoreClass="Timers.ecore#//RepeatedEvent">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Timers.ecore#//RepeatedEvent/value"/>
+    </genClasses>
+    <genClasses ecoreClass="Timers.ecore#//ClockEvent">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference Timers.ecore#//ClockEvent/times"/>
+    </genClasses>
+    <genClasses ecoreClass="Timers.ecore#//CronEvent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//CronEvent/value"/>
+    </genClasses>
+    <genClasses ecoreClass="Timers.ecore#//TimeUnitValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//TimeUnitValue/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//TimeUnitValue/unit"/>
+    </genClasses>
+    <genClasses ecoreClass="Timers.ecore#//Time">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//Time/hour"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//Time/minute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Timers.ecore#//Time/second"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

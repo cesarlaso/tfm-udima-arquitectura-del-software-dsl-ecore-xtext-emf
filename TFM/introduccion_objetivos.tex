@@ -1,0 +1,86 @@
+\section{Objetivos}
+
+\subsection{Introducción}
+
+El objetivo de este proyecto es la creación de un \gls{dsl} de carácter declarativo utilizando la metodología \gls{mde} aplicado al desarrollo de aplicaciones orientadas al \gls{iot}.
+
+Mediante este lenguaje propuesto en este trabajo, o mediante un o simular, un creador de productos \gls{iot} podría desarrollar un programa completo y funcional sin conocer los aspectos internos de funcionamiento de la plataforma, siendo suficiente con que este describa las necesidades que quiere que realice su producto en un lenguaje alineado con este dominio.
+
+Al utilizar \gls{dsl} simplificamos la documentación, reducimos el código necesario reduciendo posibles errores, evitamos la creación de tests innecesarios ya que el propio lenguaje específico nos impide realizar tareas no permitidas. En resumen, el programa generado es válido y verificado en si mismo en el dominio.
+
+Uno de los lenguajes específicos declarativos más conocidos es el lenguaje de cuarta generación \gls{sql}. Este lenguaje permite mediante una serie de declaraciones, especificar como insertar y recuperar información de una base de datos.
+El programador no tiene por que conocer como internamente el programa accede a memoria RAM,  accede a páginas de memoria, accesos a disco, simplemente tiene que ocuparse de especificar que datos quiere leer o procesar.
+
+
+% Yo revisaria un poco el párrado de la siguiente manera: El lenguaje modela un sistema empotrado mediante transacciones que reacciona a eventos externos. Los  eventos son los definidos por (Liu and Layldan), donde tenemos eventos de tipo periodico, aperiodico y de tipo rafaga. Las transacciones definen operaciones de computación o generacion de nuevos eventos.
+El lenguaje modela un sistema empotrado mediante transacciones que reacciona a eventos externos. 
+Los  eventos son los definidos por (Liu and Layldan) \textcite{scheduling_sporadic_aperiodic_events}
+, donde tenemos eventos de tipo periódico, aperiódico y de tipo ráfaga. Las transacciones definen operaciones de computación o generación de nuevos eventos.
+
+
+\subsection{Objetivos generales}
+
+Mediante \gls{mde} generaremos una plataforma de desarrollo para dispositivos orientados al \gls{iot}, creando un \gls{pim} textual con un \gls{dsl} y generar varios \gls{psm} para las plataformas \gls{iot}, servidor y simuladores de ambos.
+
+\subsection{Objetivos específicos}
+
+%Pones dos veces ventajas, imagono que es <<ventajas y desventajas>>
+Estudiar el impacto de \gls{mde} en el desarrollo de un proyecto \gls{iot} para poder ver de primera mano sus ventajas y desventajas. En 2015 realice un proyecto completo de IOT similar sin utilizar la metodología \gls{mde}, de esta forma puedo comparar plazos de desarrollo y su utilidad en un posible proyecto no académico (profesional).
+
+Mediante modelos podremos definir los requisitos del proyecto, simplificar y abstraer las tareas de:
+
+\begin{itemize}
+
+\item Gestión de interrupciones.
+\item Gestión de plataformas de despliegue.
+\item Gestión de tareas en microcontroladores, tareas cooperativas generadas en el hilo principal.
+\item Comunicación entre dispositivos y servidor.
+\item Monitorización y captura del estado de salud (\gls{housekeeping}) de los dispositivos (uso de cpu, ram, particiones, red), y de a ser posible algunos elementos observables (voltajes, consumos).
+
+\end{itemize}
+
+%<<dependiendo de a donde se llegara con este proyecto>> Esto tienes que acotarlo a este mismo proyecto.
+De esta forma el creador de producto, puede expresar todas estas necesidades a muy alto nivel, para el desarrollo de prototipos.
+
+
+Como objetivos específicos contamos con:
+
+\begin{itemize}
+	\item Conocer y realizar un proyecto con las tecnologías: \gls{ecore}, Eclipse EMF, \gls{qvt}, Xtext, Xtend
+	\item Realizar todo el proceso utilizando la metodología \gls{mde}, creando modelos y realizando transformaciones entre modelos y de modelos a código.
+	\item A través de un \gls{pim} escrito en un lenguaje descriptivo, generar varios \gls{psm} tanto para los dispositivos \gls{iot} como para servidor
+
+	\item Creación de un lenguaje específico de dominio \gls{dsl}, de tipo declarativo y basado en eventos. Estos eventos podrán ser generados por:
+	\begin{itemize}
+    	\item Entradas de propósito general \gls{gpio}
+    	\item Temporizadores y calendarios, periódicos y aperiódicos.
+    	\item Llamadas remotas de servidor al dispositivo y del dispositivo a servidor mediante un \gls{rpc}.
+	\end{itemize}
+
+\item Creación de un protocolo de comunicación en red donde:
+	\begin{itemize}
+    	\item Notificar los eventos generados por la red de dispositivos.
+    	\item Recibir eventos generados por el servidor.
+    	\item \gls{housekeeping} Notificar el estado de salud del dispositivo.
+	\end{itemize}
+
+\item Procesador y compilador del lenguaje a las siguientes plataformas \gls{iot}
+	\begin{itemize}
+    	\item ESP8266 versión Arduino. Estudio de la plataforma.
+    	\item Simulación PC. Compilación a lenguaje Java donde poder realizar comprobaciones del programa.
+    	\item Raspberry. Compilación a lenguaje Java. Reutilizando parte de la transformación de modelos a código de la versión Simulación PC. 
+	\end{itemize}
+
+\item Generación de un esqueleto para servidor donde:
+	\begin{itemize}
+    	\item Poder comunicar con los dispositivos de la red de dispositivos.
+    	\item Visualizar estado de salud de los dispositivos.
+    	\item Visualizar eventos de los dispositivos.
+    	\item Enviar eventos a los dispositivos.
+	\end{itemize}
+	
+\end{itemize}
+
+% revisar. Esto mejor lo hablamos en una tutoría.
+%Como resultados de este trabajo espero obtener una idea general de las ventajas/desventajas a la hora de trabajar con la metodología \gls{mde}
+

@@ -1,0 +1,16 @@
+def generateReaderType(EAttribute attribute) {
+	if (attribute.upperBound != 1) {
+		//es un array
+		'''
+			final int «attribute.name»_size = in.readInt();
+			final List<«attribute.getEType.name»> «attribute.name» = new ArrayList<>(«attribute.name»_size);
+			for (int i=0; i<«attribute.name»_size; i++) {
+				«readFuncName(attribute.getEType.eClass)»();
+			}
+		'''
+	} else {
+		'''
+			final «attribute.getEType.name» «attribute.name» = in.«simpleTypeReader(attribute.getEType)»();
+		'''
+	}
+}

@@ -1,0 +1,1808 @@
+!SESSION 2018-05-28 17:35:08.989 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+This is a continuation of log file /Users/cesarlaso/eclipse-emf-udima/.metadata/.bak_0.log
+Created Time: 2018-05-28 17:36:21.917
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:21.917
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.PluginsView' id and the 'Plug-ins' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.220
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.DependenciesView' id and the 'Plug-in Dependencies' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.317
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.TargetPlatformState' id and the 'Target Platform State' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.347
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.ImageBrowserView' id and the 'Plug-in Image Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.348
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtend.ide.view.DerivedSourceView' id and the 'Generated Code' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.353
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.ui.XtextCallHierarchy' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.355
+!MESSAGE Removing part descriptor with the 'org.eclipse.xtext.xtext.ui.graph.view' id and the 'Xtext Syntax Graph' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.356
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.proposals.ProposalsBrowser' id and the 'Generation Patterns' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.357
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ide.ui.views.overrides.OverridesBrowser' id and the 'Overrides' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.358
+!MESSAGE Removing part descriptor with the 'org.eclipse.acceleo.ui.interpreter.view' id and the 'Interpreter' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.359
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.dawn.ui.views.DawnExplorer' id and the 'Dawn Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.360
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.explorer.ui.CDORepositoriesView' id and the 'CDO Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.365
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.ui.CDOSessionsView' id and the 'CDO Sessions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.366
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.ui.CDOWatchListView' id and the 'CDO Watch List' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.367
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.ui.CDORemoteSessionsView' id and the 'CDO Collaboration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.369
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.ui.CDOTimeMachineView' id and the 'CDO Time Machine' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.371
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.cdo.ui.admin.CDOAdminView' id and the 'CDO Administration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.373
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.compare.ide.ui.logicalmodel.view' id and the 'Logical Model View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.374
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecore.xcore.ui.EOperationInvocationView' id and the 'Operation Invocation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.376
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EClassHierarchyView' id and the 'EClass Information' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.377
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecoretools.internal.views.EReferencesView' id and the 'References' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.378
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecp.ui.ModelExplorerView' id and the 'Model Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.379
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecp.ui.ModelRepositoriesView' id and the 'Model Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.386
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecp.ui.ECPProvidersView' id and the 'ECP Providers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.389
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.ecp.view.model.preview.e3.views.PreviewView' id and the 'EMF Forms Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.emfstore.client.ui.views.historybrowserview.HistoryBrowserView' id and the 'History Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.392
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.custom.ui.view.catalog' id and the 'Customizations' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.395
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.efacet.ui.view.navigation' id and the 'Navigation view' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.396
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.efacet.ui.view.catalog' id and the 'Facet Sets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.399
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.infra.common.ui.views.packageRegistry' id and the 'EPackage Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.400
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.widgets.table.examples.library.core.writer.view' id and the 'Writers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.405
+!MESSAGE Removing part descriptor with the 'org.eclipse.emf.facet.widgets.table.ui.workbench.view.TableView' id and the 'Model Table' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.406
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmt.modisco.infra.browser.custom.view' id and the 'Customizations (Deprecated)' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.408
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmt.modisco.infra.facet.ui.view' id and the 'Facet Sets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.409
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmt.modisco.infra.query.ui.catalogView' id and the 'Query Sets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.595
+!MESSAGE Removing part descriptor with the 'org.eclipse.gmt.modisco.infra.query.ui.queryExecutionView' id and the 'Query Execution' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.598
+!MESSAGE Removing part descriptor with the 'org.eclipse.graphiti.examples.composite.diagramViewExample' id and the 'Diagram View Example' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.601
+!MESSAGE Removing part descriptor with the 'org.eclipse.graphiti.ui.internal.editor.thumbnailview' id and the 'Miniature View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.603
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.executionviewer.view.ExecutionView' id and the 'ATL Profiler - Execution View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.604
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.atl.profiler.ui.profilingdatatable.ProfilingDataTableView' id and the 'ATL Profiler - Rules View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.605
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.internal.qvt.oml.common.views.MetamodelBrowserView' id and the 'Metamodel Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.606
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.internal.qvt.oml.debug.ui.views.trace' id and the 'Operational QVT Traces' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.607
+!MESSAGE Removing part descriptor with the 'org.eclipse.m2m.qvt.oml.tools.coverage.ui.coverageView' id and the 'Operational QVT Code Coverage View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.609
+!MESSAGE Removing part descriptor with the 'org.eclipse.modisco.infra.discovery.ui.views.discoverersview' id and the 'Discoverers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.611
+!MESSAGE Removing part descriptor with the 'org.eclipse.net4j.debug.RemoteTraceView' id and the 'Remote Traces' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.613
+!MESSAGE Removing part descriptor with the 'org.eclipse.net4j.AcceptorsView' id and the 'Acceptors' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.624
+!MESSAGE Removing part descriptor with the 'org.eclipse.net4j.ConnectorsView' id and the 'Connectors' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.625
+!MESSAGE Removing part descriptor with the 'org.eclipse.net4j.util.Net4jContainerView' id and the 'Container' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.628
+!MESSAGE Removing part descriptor with the 'org.eclipse.net4j.util.Net4jIntrospectorView' id and the 'Introspector' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.630
+!MESSAGE Removing part descriptor with the 'org.eclipse.ocl.examples.emf.validation.validity.ui.validity' id and the 'ValidityView' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.635
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.infra.core.pluginexplorer.PluginsContentView' id and the 'Plugin Content Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.636
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.infra.viewpoints.policy.ViewpointExplorer' id and the 'Viewpoint Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.638
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.ui.toolbox.notification.view.PapyrusNotificationView' id and the 'Notification' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.639
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.uml.oclconstraintevaluation.OCLEvaluationView' id and the 'OCL Evaluation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.640
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.views.documentation.DocumentationView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.641
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.views.modelexplorer.modelexplorer' id and the 'Model Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.642
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.views.references.ReferencesView' id and the 'References' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.645
+!MESSAGE Removing part descriptor with the 'org.eclipse.papyrus.views.validation.ModelValidationView' id and the 'Model Validation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.647
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview' id and the 'API Tools' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.648
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.runtime.RegistryBrowser' id and the 'Plug-in Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.650
+!MESSAGE Removing part descriptor with the 'org.eclipse.sirius.common.ui.view.timeProfiler' id and the 'Time Profiler' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.654
+!MESSAGE Removing part descriptor with the 'org.eclipse.sirius.ui.tools.views.model.explorer' id and the 'Model Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.655
+!MESSAGE Removing part descriptor with the 'org.eclipse.sphinx.emf.check.ui.markersView' id and the 'Check Validation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.656
+!MESSAGE Removing part descriptor with the 'org.eclipse.sphinx.platform.ui.views.documentation.DocumentationView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.658
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.ccvs.ui.RepositoriesView' id and the 'CVS Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.659
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.ccvs.ui.EditorsView' id and the 'CVS Editors' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.661
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.svn.ui.repository.RepositoriesView' id and the 'SVN Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.662
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.svn.ui.properties.PropertiesView' id and the 'SVN Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.663
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.svn.ui.repository.browser.RepositoryBrowser' id and the 'SVN Repository Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.665
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.svn.ui.properties.RevPropertiesView' id and the 'Revision Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.666
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.svn.ui.lock.LocksView' id and the 'SVN Locks' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.668
+!MESSAGE Removing part descriptor with the 'org.eclipse.viatra.query.tooling.ui.queryexplorer.QueryExplorer' id and the 'Query Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.669
+!MESSAGE Removing part descriptor with the 'org.eclipse.viatra.query.tooling.ui.queryregistry.QueryRegistryView' id and the 'Query Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-05-28 17:36:22.671
+!MESSAGE Removing part descriptor with the 'org.eclipse.viatra.query.tooling.ui.queryresult.QueryResultView' id and the 'Query Results' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2018-05-28 18:11:39.939 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/cesarlaso/eclipse-emf-udima/ -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.066
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.069
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.070
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.070
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.071
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.072
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 18:12:10.072
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-28 18:12:11.275
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-05-28 18:12:16.015
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-28 18:12:16.015
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7eaa78f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4591a080,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:21:55.528
+!MESSAGE Problems occurred while performing installation: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+!STACK 1
+org.eclipse.core.runtime.CoreException: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.checkForUnavailable(PrepareInstallProfileJob.java:262)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.computeInstallableUnits(PrepareInstallProfileJob.java:174)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.run(PrepareInstallProfileJob.java:104)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:21:55.532
+!MESSAGE The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+
+!ENTRY org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:22:00.301
+!MESSAGE Problems occurred while performing installation: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+!STACK 1
+org.eclipse.core.runtime.CoreException: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.checkForUnavailable(PrepareInstallProfileJob.java:262)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.computeInstallableUnits(PrepareInstallProfileJob.java:174)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.run(PrepareInstallProfileJob.java:104)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:22:00.302
+!MESSAGE The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+
+!ENTRY org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:22:04.698
+!MESSAGE Problems occurred while performing installation: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+!STACK 1
+org.eclipse.core.runtime.CoreException: The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.checkForUnavailable(PrepareInstallProfileJob.java:262)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.computeInstallableUnits(PrepareInstallProfileJob.java:174)
+	at org.eclipse.papyrus.infra.discovery.ui.internal.common.PrepareInstallProfileJob.run(PrepareInstallProfileJob.java:104)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 org.eclipse.papyrus.infra.discovery.ui 4 0 2018-05-28 19:22:04.699
+!MESSAGE The following components are not available: Papyrus Layers (id=org.eclipse.papyrus.layers.feature, site=[http://download.eclipse.org/modeling/mdt/papyrus/incubation/layers/updates/oxygen/])
+!SESSION 2018-05-28 19:23:51.202 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/Users/cesarlaso/eclipse-emf-udima/ -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.015
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.017
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.018
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.019
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.019
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.020
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 19:24:26.020
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-28 19:24:27.127
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-05-28 19:24:32.118
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-28 19:24:32.118
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@524d3e47,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c810f5c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b3fa2ef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.sirius 4 4 2018-05-28 20:37:21.137
+!MESSAGE One modeling project is invalid.
+!SUBENTRY 1 org.eclipse.sirius 4 0 2018-05-28 20:37:21.137
+!MESSAGE Zero representations file found in "es.udima.cesarlaso.tfm". A modeling project must contain one.
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.809
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.811
+!MESSAGE 	The representation 'Flow Port As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4b7a74dc (description: ) (identifier: org.eclipse.papyrus.sysmldi.FlowPort_Label, name: FlowPort (FlowPort_Label), hint: FlowPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.811
+!MESSAGE 	The representation 'Verify Link' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@da01020 (description: null) (identifier: org.eclipse.papyrus.sysmldi.Verify_Abstraction_Verify_Link, name: Verify_Link, hint: Verify_Link, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.812
+!MESSAGE 	The representation 'Operation Border Item' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5cca3983 (description: null) (identifier: org.eclipse.papyrus.sysmldi., name: ControlOperator (Operation_BorderItem), hint: Operation_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.812
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3cac6941 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.813
+!MESSAGE 	The representation 'Class Port' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2302579c (description: Create an UML Port in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_Port, name: Class_Port, hint: Class_Port, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.813
+!MESSAGE 	The representation 'Class ProxyPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@753a4476 (description: Create an UML ProxyPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_ProxyPort, name: Class_ProxyPort, hint: Class_ProxyPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.814
+!MESSAGE 	The representation 'Class FullPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@27628a9a (description: Create an UML FullPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_FullPort, name: Class_FullPort, hint: Class_FullPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.815
+!MESSAGE 	The representation 'ProxyPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@1ff38f32 (description: ) (identifier: org.eclipse.papyrus.sysmldi.ProxyPort_Label, name: ProxyPort (ProxyPort_Label), hint: ProxyPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.815
+!MESSAGE 	The representation 'FullPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@559ac65 (description: ) (identifier: org.eclipse.papyrus.sysmldi.FullPort_Label, name: FullPort (FullPort_Label), hint: FullPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.816
+!MESSAGE 	The representation 'References As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@740dd614 (description: Create a Block Reference) (identifier: org.eclipse.papyrus.sysmldi.Reference_label, name: Reference, hint: SysML::Block::Reference_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.817
+!MESSAGE 	The representation 'Parts As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@24d53a95 (description: Create a Block Part) (identifier: org.eclipse.papyrus.sysmldi.Part_label, name: Part, hint: SysML::Block::Part_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.817
+!MESSAGE 	The representation 'FlowProperty As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@12b1cfa7 (description: Create a FlowProperty) (identifier: org.eclipse.papyrus.sysmldi.FlowProperty_label, name: FlowProperty, hint: SysML::Block::FlowProperty_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:15.817
+!MESSAGE 	The representation 'Parameters As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@16bdb4ae (description: Create a ConstraintBlock Parameter) (identifier: org.eclipse.papyrus.sysmldi.Parameter_label, name: Parameter, hint: SysML::ConstraintBlock::Parameter_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:16.008
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:16.009
+!MESSAGE 	The representation 'ConstraintBlockProperty' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@7c4a2432 (description: null) (identifier: org.eclipse.papyrus.sysmldi.ConstraintPropertyComposite, name: ConstraintPropertyComposite, hint: ConstraintPropertyComposite, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:16.010
+!MESSAGE 	The representation 'Border item that represents PropertyValue of SysML' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@781c484d (description: Property value hat must displayed in constraint property) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItem, name: Parameter_BorderItem, hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:16.010
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3cac6941 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-28 20:40:16.010
+!MESSAGE 	The representation 'BorderItemClassShapeRepresentation' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@6d140851 (description: Property value hat must displayed in constraint block) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItemClassShape, name: Parameter_BorderItem (Class_Shape), hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.ui 4 0 2018-05-28 20:43:25.217
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.Saveable.enableUI(Saveable.java:287)
+	at org.eclipse.ui.internal.SaveableHelper$3.lambda$0(SaveableHelper.java:396)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4034)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-05-28 20:43:54.122
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.Saveable.enableUI(Saveable.java:287)
+	at org.eclipse.ui.internal.SaveableHelper$3.lambda$0(SaveableHelper.java:396)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4034)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-05-28 20:45:05.028
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.Saveable.enableUI(Saveable.java:287)
+	at org.eclipse.ui.internal.SaveableHelper$3.lambda$0(SaveableHelper.java:396)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4034)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-05-28 20:45:27.044
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.Saveable.enableUI(Saveable.java:287)
+	at org.eclipse.ui.internal.SaveableHelper$3.lambda$0(SaveableHelper.java:396)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4034)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 21:14:54.865
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProviderRegistry(52)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProviderRegistryImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 21:14:54.869
+!MESSAGE [org.eclipse.emf.ecp.core.ecpRepositoryManager(53)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPRepositoryManagerImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 21:14:54.872
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProjectManager(54)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProjectManagerImpl
+!SESSION 2018-05-28 22:35:36.406 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.833
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.836
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.837
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.838
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.839
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.840
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-28 23:02:48.841
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-28 23:02:50.736
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-05-28 23:02:59.134
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-28 23:02:59.134
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d5ef7c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b44d95f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12bc51f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 23:18:29.926
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProviderRegistry(52)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProviderRegistryImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 23:18:29.927
+!MESSAGE [org.eclipse.emf.ecp.core.ecpRepositoryManager(53)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPRepositoryManagerImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-28 23:18:29.929
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProjectManager(54)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProjectManagerImpl
+!SESSION 2018-05-30 16:20:09.102 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.341
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.344
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.344
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.345
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.345
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.346
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-30 16:20:29.346
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-30 16:20:30.514
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-05-30 16:20:35.359
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-30 16:20:35.359
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3645b9d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b280053,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e2d12b8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-30 16:37:55.458
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProviderRegistry(52)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProviderRegistryImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-30 16:37:55.459
+!MESSAGE [org.eclipse.emf.ecp.core.ecpRepositoryManager(53)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPRepositoryManagerImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-05-30 16:37:55.460
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProjectManager(54)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProjectManagerImpl
+!SESSION 2018-05-31 15:17:29.558 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.195
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.199
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.200
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.201
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.202
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.202
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-05-31 15:19:15.203
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-31 15:19:16.768
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-05-31 15:19:23.560
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-05-31 15:19:23.560
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4aca6d5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5c6e4d6b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a25c653,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.069
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.072
+!MESSAGE 	The representation 'Flow Port As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@20c7622 (description: ) (identifier: org.eclipse.papyrus.sysmldi.FlowPort_Label, name: FlowPort (FlowPort_Label), hint: FlowPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.073
+!MESSAGE 	The representation 'Verify Link' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@b7a5f79 (description: null) (identifier: org.eclipse.papyrus.sysmldi.Verify_Abstraction_Verify_Link, name: Verify_Link, hint: Verify_Link, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.073
+!MESSAGE 	The representation 'Operation Border Item' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5e4178cc (description: null) (identifier: org.eclipse.papyrus.sysmldi., name: ControlOperator (Operation_BorderItem), hint: Operation_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.074
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@d660527 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.074
+!MESSAGE 	The representation 'Class Port' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@6d04040f (description: Create an UML Port in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_Port, name: Class_Port, hint: Class_Port, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.074
+!MESSAGE 	The representation 'Class ProxyPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3fb0813f (description: Create an UML ProxyPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_ProxyPort, name: Class_ProxyPort, hint: Class_ProxyPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.075
+!MESSAGE 	The representation 'Class FullPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@11621e94 (description: Create an UML FullPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_FullPort, name: Class_FullPort, hint: Class_FullPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.075
+!MESSAGE 	The representation 'ProxyPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4dba7715 (description: ) (identifier: org.eclipse.papyrus.sysmldi.ProxyPort_Label, name: ProxyPort (ProxyPort_Label), hint: ProxyPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.076
+!MESSAGE 	The representation 'FullPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@798ca63c (description: ) (identifier: org.eclipse.papyrus.sysmldi.FullPort_Label, name: FullPort (FullPort_Label), hint: FullPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.076
+!MESSAGE 	The representation 'References As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@24459401 (description: Create a Block Reference) (identifier: org.eclipse.papyrus.sysmldi.Reference_label, name: Reference, hint: SysML::Block::Reference_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.076
+!MESSAGE 	The representation 'Parts As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@68871836 (description: Create a Block Part) (identifier: org.eclipse.papyrus.sysmldi.Part_label, name: Part, hint: SysML::Block::Part_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.076
+!MESSAGE 	The representation 'FlowProperty As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@79b5d264 (description: Create a FlowProperty) (identifier: org.eclipse.papyrus.sysmldi.FlowProperty_label, name: FlowProperty, hint: SysML::Block::FlowProperty_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.077
+!MESSAGE 	The representation 'Parameters As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4b886940 (description: Create a ConstraintBlock Parameter) (identifier: org.eclipse.papyrus.sysmldi.Parameter_label, name: Parameter, hint: SysML::ConstraintBlock::Parameter_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.258
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.258
+!MESSAGE 	The representation 'ConstraintBlockProperty' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@71e8e214 (description: null) (identifier: org.eclipse.papyrus.sysmldi.ConstraintPropertyComposite, name: ConstraintPropertyComposite, hint: ConstraintPropertyComposite, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.260
+!MESSAGE 	The representation 'Border item that represents PropertyValue of SysML' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@372f19b0 (description: Property value hat must displayed in constraint property) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItem, name: Parameter_BorderItem, hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.261
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@d660527 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-05-31 18:20:41.261
+!MESSAGE 	The representation 'BorderItemClassShapeRepresentation' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4e413b1f (description: Property value hat must displayed in constraint block) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItemClassShape, name: Parameter_BorderItem (Class_Shape), hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+!SESSION 2018-05-31 23:59:49.625 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-06-01 00:00:00.769
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.595
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.597
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.598
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.599
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.599
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.600
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-01 00:00:02.601
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-01 00:00:03.764
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-01 00:00:08.880
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-01 00:00:08.880
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f169051,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e3559b4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24ac4cf4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-06-02 15:36:17.540 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.197
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.201
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.201
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.202
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.204
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.205
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-02 15:36:55.206
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-02 15:36:56.582
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-02 15:37:03.170
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-02 15:37:03.170
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e75c292,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3738bd7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@299f3c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.279
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.281
+!MESSAGE 	The representation 'Flow Port As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@c5c36ad (description: ) (identifier: org.eclipse.papyrus.sysmldi.FlowPort_Label, name: FlowPort (FlowPort_Label), hint: FlowPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.282
+!MESSAGE 	The representation 'Verify Link' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@24f2dd47 (description: null) (identifier: org.eclipse.papyrus.sysmldi.Verify_Abstraction_Verify_Link, name: Verify_Link, hint: Verify_Link, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.282
+!MESSAGE 	The representation 'Operation Border Item' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3098dc68 (description: null) (identifier: org.eclipse.papyrus.sysmldi., name: ControlOperator (Operation_BorderItem), hint: Operation_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.283
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3afaad33 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.283
+!MESSAGE 	The representation 'Class Port' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@14a50d6b (description: Create an UML Port in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_Port, name: Class_Port, hint: Class_Port, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.284
+!MESSAGE 	The representation 'Class ProxyPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@50d99ec3 (description: Create an UML ProxyPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_ProxyPort, name: Class_ProxyPort, hint: Class_ProxyPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.284
+!MESSAGE 	The representation 'Class FullPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5cfd36ec (description: Create an UML FullPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_FullPort, name: Class_FullPort, hint: Class_FullPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.284
+!MESSAGE 	The representation 'ProxyPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@497913c6 (description: ) (identifier: org.eclipse.papyrus.sysmldi.ProxyPort_Label, name: ProxyPort (ProxyPort_Label), hint: ProxyPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.285
+!MESSAGE 	The representation 'FullPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@61d1135c (description: ) (identifier: org.eclipse.papyrus.sysmldi.FullPort_Label, name: FullPort (FullPort_Label), hint: FullPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.285
+!MESSAGE 	The representation 'References As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@59421a1e (description: Create a Block Reference) (identifier: org.eclipse.papyrus.sysmldi.Reference_label, name: Reference, hint: SysML::Block::Reference_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.285
+!MESSAGE 	The representation 'Parts As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@6ee47953 (description: Create a Block Part) (identifier: org.eclipse.papyrus.sysmldi.Part_label, name: Part, hint: SysML::Block::Part_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.285
+!MESSAGE 	The representation 'FlowProperty As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@71b87e0a (description: Create a FlowProperty) (identifier: org.eclipse.papyrus.sysmldi.FlowProperty_label, name: FlowProperty, hint: SysML::Block::FlowProperty_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.286
+!MESSAGE 	The representation 'Parameters As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@37859c2b (description: Create a ConstraintBlock Parameter) (identifier: org.eclipse.papyrus.sysmldi.Parameter_label, name: Parameter, hint: SysML::ConstraintBlock::Parameter_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.579
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.580
+!MESSAGE 	The representation 'ConstraintBlockProperty' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@21824c35 (description: null) (identifier: org.eclipse.papyrus.sysmldi.ConstraintPropertyComposite, name: ConstraintPropertyComposite, hint: ConstraintPropertyComposite, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.582
+!MESSAGE 	The representation 'Border item that represents PropertyValue of SysML' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@16638b5 (description: Property value hat must displayed in constraint property) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItem, name: Parameter_BorderItem, hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.582
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3afaad33 (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-02 15:55:00.583
+!MESSAGE 	The representation 'BorderItemClassShapeRepresentation' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2183f160 (description: Property value hat must displayed in constraint block) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItemClassShape, name: Parameter_BorderItem (Class_Shape), hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.ui 4 0 2018-06-02 15:56:53.555
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:800)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:589)
+	at org.eclipse.swt.widgets.ToolItem.computeSize(ToolItem.java:311)
+	at org.eclipse.swt.widgets.ToolBar.layoutHorizontal(ToolBar.java:536)
+	at org.eclipse.swt.widgets.ToolBar.layout(ToolBar.java:638)
+	at org.eclipse.swt.widgets.ToolBar.relayout(ToolBar.java:651)
+	at org.eclipse.swt.widgets.ToolBar.destroyItem(ToolBar.java:322)
+	at org.eclipse.swt.widgets.ToolItem.destroyWidget(ToolItem.java:420)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1353)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:687)
+	at org.eclipse.jface.action.ActionContributionItem.dispose(ActionContributionItem.java:1167)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionMenuManager.dispose(ActionMenuManager.java:317)
+	at org.eclipse.sirius.diagram.ui.tools.internal.editor.tabbar.actions.TabbarSelectMenuManager.dispose(TabbarSelectMenuManager.java:67)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionMenuManager$MenuCreatorAction.dispose(ActionMenuManager.java:126)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetDispose(ActionContributionItem.java:457)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:431)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4258)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1502)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1525)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1506)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1343)
+	at org.eclipse.swt.widgets.ToolBar.releaseChildren(ToolBar.java:660)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:955)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:955)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:955)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:955)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:955)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:1346)
+	at org.eclipse.swt.widgets.Control.release(Control.java:2957)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:687)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:172)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.disposeWidget(ContributedPartRenderer.java:270)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:935)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:863)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:858)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:842)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:180)
+	at sun.reflect.GeneratedMethodAccessor76.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:88)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1328)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1266)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$1(StackRenderer.java:1252)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$5.close(StackRenderer.java:1121)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1938)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:333)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4258)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1502)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1525)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1510)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1314)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4082)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3699)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.sirius 4 0 2018-06-02 16:13:47.246
+!MESSAGE The program was not able to create image file /Users/cesarlaso/eclipse-emf-udima/es.udima.cesarlaso.tfm/images/gpios class diagram.svg
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-02 17:12:53.537
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProviderRegistry(52)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProviderRegistryImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-02 17:12:53.541
+!MESSAGE [org.eclipse.emf.ecp.core.ecpRepositoryManager(53)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPRepositoryManagerImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-02 17:12:53.542
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProjectManager(54)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProjectManagerImpl
+!SESSION 2018-06-06 17:09:13.158 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.646
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.653
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.655
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.660
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.675
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.677
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-06 17:10:31.679
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-06 17:10:34.119
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-06 17:10:39.744
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-06 17:10:39.744
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b57bd5b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b495ce7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ac58d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.715
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.716
+!MESSAGE 	The representation 'Flow Port As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3b6bbf01 (description: ) (identifier: org.eclipse.papyrus.sysmldi.FlowPort_Label, name: FlowPort (FlowPort_Label), hint: FlowPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.717
+!MESSAGE 	The representation 'Verify Link' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2f92de5a (description: null) (identifier: org.eclipse.papyrus.sysmldi.Verify_Abstraction_Verify_Link, name: Verify_Link, hint: Verify_Link, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.718
+!MESSAGE 	The representation 'Operation Border Item' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2f73fa11 (description: null) (identifier: org.eclipse.papyrus.sysmldi., name: ControlOperator (Operation_BorderItem), hint: Operation_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.718
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@55817beb (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.718
+!MESSAGE 	The representation 'Class Port' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@44451a39 (description: Create an UML Port in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_Port, name: Class_Port, hint: Class_Port, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.719
+!MESSAGE 	The representation 'Class ProxyPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@df4619e (description: Create an UML ProxyPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_ProxyPort, name: Class_ProxyPort, hint: Class_ProxyPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.719
+!MESSAGE 	The representation 'Class FullPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@24e95be6 (description: Create an UML FullPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_FullPort, name: Class_FullPort, hint: Class_FullPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.720
+!MESSAGE 	The representation 'ProxyPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5fb895f3 (description: ) (identifier: org.eclipse.papyrus.sysmldi.ProxyPort_Label, name: ProxyPort (ProxyPort_Label), hint: ProxyPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.720
+!MESSAGE 	The representation 'FullPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@77ef919a (description: ) (identifier: org.eclipse.papyrus.sysmldi.FullPort_Label, name: FullPort (FullPort_Label), hint: FullPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.721
+!MESSAGE 	The representation 'References As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4eb6d757 (description: Create a Block Reference) (identifier: org.eclipse.papyrus.sysmldi.Reference_label, name: Reference, hint: SysML::Block::Reference_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.721
+!MESSAGE 	The representation 'Parts As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@7a467a31 (description: Create a Block Part) (identifier: org.eclipse.papyrus.sysmldi.Part_label, name: Part, hint: SysML::Block::Part_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.722
+!MESSAGE 	The representation 'FlowProperty As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@46a75c0e (description: Create a FlowProperty) (identifier: org.eclipse.papyrus.sysmldi.FlowProperty_label, name: FlowProperty, hint: SysML::Block::FlowProperty_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.722
+!MESSAGE 	The representation 'Parameters As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4ce91b56 (description: Create a ConstraintBlock Parameter) (identifier: org.eclipse.papyrus.sysmldi.Parameter_label, name: Parameter, hint: SysML::ConstraintBlock::Parameter_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.962
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.963
+!MESSAGE 	The representation 'ConstraintBlockProperty' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@6d74d8e4 (description: null) (identifier: org.eclipse.papyrus.sysmldi.ConstraintPropertyComposite, name: ConstraintPropertyComposite, hint: ConstraintPropertyComposite, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.963
+!MESSAGE 	The representation 'Border item that represents PropertyValue of SysML' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@707a05a0 (description: Property value hat must displayed in constraint property) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItem, name: Parameter_BorderItem, hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.964
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@55817beb (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-06 17:11:15.964
+!MESSAGE 	The representation 'BorderItemClassShapeRepresentation' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@421e426d (description: Property value hat must displayed in constraint block) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItemClassShape, name: Parameter_BorderItem (Class_Shape), hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+!SESSION 2018-06-12 19:06:35.508 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.985
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.990
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.991
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.992
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.992
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.993
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-12 19:16:27.994
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-12 19:16:31.250
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-12 19:16:36.784
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-12 19:16:36.784
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@389c624,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19416b0f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4bab64a2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-06-13 18:36:27.003 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.144
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.147
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.148
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.149
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.149
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.150
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 18:36:43.151
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-13 18:36:44.425
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-13 18:36:49.203
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-13 18:36:49.203
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b57bd5b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b495ce7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ac58d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-06-13 19:51:06.288 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/cesarlaso/eclipse-emf-udima/ -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.365
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.368
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.369
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.370
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.371
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.371
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-13 19:51:33.372
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-13 19:51:34.759
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-13 19:51:40.867
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-13 19:51:40.867
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fc9253c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@572c3a61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4dbad471,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-06-14 17:19:04.334 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.414
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.417
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.417
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.418
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.418
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.419
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 17:48:07.420
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-14 17:48:09.024
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-14 17:48:14.823
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-14 17:48:14.823
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e609e8a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59209bcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ceb6854,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2018-06-14 20:56:37.896 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.243
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.247
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.247
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.248
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.249
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.250
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 20:56:52.251
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-14 20:56:53.471
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-14 20:56:57.674
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-14 20:56:57.674
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3fddbcb1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ecc303c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@389c624,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2018-06-14 21:11:31.844
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Scrollable.isEventView(Scrollable.java:278)
+	at org.eclipse.swt.widgets.Control.mouseDown(Control.java:2613)
+	at org.eclipse.swt.widgets.Tree.mouseDown(Tree.java:2111)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5799)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:228)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2148)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2411)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5863)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5291)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5441)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3696)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-06-14 21:22:19.442 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.157
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.160
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.161
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.162
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.162
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.163
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 21:22:35.164
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-14 21:22:36.450
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-14 21:22:41.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-14 21:22:41.240
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@622eee0b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d031623,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e609e8a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.783
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.788
+!MESSAGE 	The representation 'Flow Port As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5c48d897 (description: ) (identifier: org.eclipse.papyrus.sysmldi.FlowPort_Label, name: FlowPort (FlowPort_Label), hint: FlowPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.790
+!MESSAGE 	The representation 'Verify Link' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@bef9469 (description: null) (identifier: org.eclipse.papyrus.sysmldi.Verify_Abstraction_Verify_Link, name: Verify_Link, hint: Verify_Link, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.791
+!MESSAGE 	The representation 'Operation Border Item' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@37b8ef0 (description: null) (identifier: org.eclipse.papyrus.sysmldi., name: ControlOperator (Operation_BorderItem), hint: Operation_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.792
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@cc4b1fe (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.793
+!MESSAGE 	The representation 'Class Port' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4d22df74 (description: Create an UML Port in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_Port, name: Class_Port, hint: Class_Port, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.797
+!MESSAGE 	The representation 'Class ProxyPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5a768240 (description: Create an UML ProxyPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_ProxyPort, name: Class_ProxyPort, hint: Class_ProxyPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.803
+!MESSAGE 	The representation 'Class FullPort' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2bb958fd (description: Create an UML FullPort in an UML Class Diagram) (identifier: org.eclipse.papyrus.sysmldi.Class_FullPort, name: Class_FullPort, hint: Class_FullPort, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.804
+!MESSAGE 	The representation 'ProxyPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@3be5b236 (description: ) (identifier: org.eclipse.papyrus.sysmldi.ProxyPort_Label, name: ProxyPort (ProxyPort_Label), hint: ProxyPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.807
+!MESSAGE 	The representation 'FullPort As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5a5b28f2 (description: ) (identifier: org.eclipse.papyrus.sysmldi.FullPort_Label, name: FullPort (FullPort_Label), hint: FullPort_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.810
+!MESSAGE 	The representation 'References As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@329af9b1 (description: Create a Block Reference) (identifier: org.eclipse.papyrus.sysmldi.Reference_label, name: Reference, hint: SysML::Block::Reference_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.810
+!MESSAGE 	The representation 'Parts As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@4b23219d (description: Create a Block Part) (identifier: org.eclipse.papyrus.sysmldi.Part_label, name: Part, hint: SysML::Block::Part_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.811
+!MESSAGE 	The representation 'FlowProperty As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2294fa6c (description: Create a FlowProperty) (identifier: org.eclipse.papyrus.sysmldi.FlowProperty_label, name: FlowProperty, hint: SysML::Block::FlowProperty_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:55.812
+!MESSAGE 	The representation 'Parameters As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@1f5c8d1d (description: Create a ConstraintBlock Parameter) (identifier: org.eclipse.papyrus.sysmldi.Parameter_label, name: Parameter, hint: SysML::ConstraintBlock::Parameter_label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:56.530
+!MESSAGE Expansion model not loaded
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:56.531
+!MESSAGE 	The representation 'ConstraintBlockProperty' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@19a2e480 (description: null) (identifier: org.eclipse.papyrus.sysmldi.ConstraintPropertyComposite, name: ConstraintPropertyComposite, hint: ConstraintPropertyComposite, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:56.533
+!MESSAGE 	The representation 'Border item that represents PropertyValue of SysML' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@5f7be9fe (description: Property value hat must displayed in constraint property) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItem, name: Parameter_BorderItem, hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:56.533
+!MESSAGE 	The representation 'Constraint As Label' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@cc4b1fe (description: Used to display a constraint in the typed constraint property) (identifier: org.eclipse.papyrus.sysmldi.Constraint_Label, name: Constraint_Label, hint: Constraint_Label, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.papyrus.infra.gmfdiag.common 2 0 2018-06-14 22:03:56.534
+!MESSAGE 	The representation 'BorderItemClassShapeRepresentation' references a element type that does not exist org.eclipse.papyrus.infra.types.impl.SpecializationTypeConfigurationImpl@2fd33f15 (description: Property value hat must displayed in constraint block) (identifier: org.eclipse.papyrus.sysmldi.Parameter_BorderItemClassShape, name: Parameter_BorderItem (Class_Shape), hint: Parameter_BorderItem, kind: org.eclipse.gmf.runtime.emf.type.core.IHintedType)
+
+!ENTRY org.eclipse.ui 4 0 2018-06-14 22:05:44.151
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.sirius.ui.tools.internal.graphicalcomponents.GraphicalRepresentationHandler$RefreshViewerOnChangeResourceSetListener.lambda$0(GraphicalRepresentationHandler.java:155)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4034)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3701)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-14 23:06:51.623
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProviderRegistry(52)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProviderRegistryImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-14 23:06:51.625
+!MESSAGE [org.eclipse.emf.ecp.core.ecpRepositoryManager(53)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPRepositoryManagerImpl
+
+!ENTRY org.eclipse.emf.ecp.core 4 0 2018-06-14 23:06:51.629
+!MESSAGE [org.eclipse.emf.ecp.core.ecpProjectManager(54)] findMethod: Suitable but non-accessible method deactivate found in class org.eclipse.net4j.util.lifecycle.Lifecycle, subclass of org.eclipse.emf.ecp.internal.core.ECPProjectManagerImpl
+!SESSION 2018-06-14 23:06:54.574 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/cesarlaso/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.548
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.552
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.553
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.554
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.555
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.556
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-06-14 23:07:19.556
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.core.net 1 0 2018-06-14 23:07:20.783
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-06-14 23:07:24.901
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-06-14 23:07:24.901
+!MESSAGE A conflict occurred for COMMAND+6:
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.emf.ecp.cdo.ui.checkinCommand,Checkin,
+		,
+		Category(org.eclipse.emf.ecp.cdo.ui.commands,ECP CDO Provider,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c29342a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(UpdatePMFModel.commands.sampleCommand,Update PMF Model,
+		,
+		Category(UpdatePMFModel.commands.category,PMF Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4af2f991,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+6,
+	ParameterizedCommand(Command(org.eclipse.papyrus.requirements.sysml14.traceability.handlers.InitDerivedReqHandler,Derive New Requirement,
+		,
+		Category(org.eclipse.papyrus.editor.category,Papyrus Category,this a category of papyrus commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b5d2a4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

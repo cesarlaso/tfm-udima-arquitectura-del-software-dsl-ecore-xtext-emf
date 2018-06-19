@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExportRepresentationsAsImagesDialog">
+		<item value="SVG" key="ExportRepresentationsAsImagesDialog.imageFormat"/>
+		<list key="ExportRepresentationsAsImagesDialog.folder">
+			<item value="/Users/cesarlaso/eclipse-emf-udima/es.udima.cesarlaso.tfm/images"/>
+		</list>
+		<list key="ExportRepresentationsAsImagesDialog.file">
+			<item value="/Users/cesarlaso/eclipse-emf-udima/es.udima.cesarlaso.tfm/images"/>
+			<item value="/Users/cesarlaso/eclipse-emf-udima/es.udima.cesarlaso.tfm/model"/>
+			<item value="/Users/cesarlaso/eclipse-emf-udima/es.udima.cesarlaso.tfm/model/health class diagram.png"/>
+		</list>
+	</section>
+</section>

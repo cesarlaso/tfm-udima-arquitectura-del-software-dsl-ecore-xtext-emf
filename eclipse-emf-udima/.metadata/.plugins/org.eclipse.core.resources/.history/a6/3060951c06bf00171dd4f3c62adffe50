@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="programs" nsURI="http://tfm.cesarlaso.udima.es/programs" nsPrefix="es.udima.cesarlaso.tfm.programs">
+  <eClassifiers xsi:type="ecore:EClass" name="Program">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Programa es el modelo principal del dominio. Representa una serie de estados, eventos, actuadores"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="state" lowerBound="1" eType="#//ProgramState"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="states" lowerBound="1"
+        upperBound="-1" eType="#//ProgramState" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="gpioAliases" lowerBound="1"
+        upperBound="-1" eType="ecore:EClass Gpios.ecore#//PinAlias" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProgramState">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="events" lowerBound="1"
+        upperBound="-1" eType="#//Event" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actuators" lowerBound="1"
+        upperBound="-1" eType="#//Actuator" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Actuator" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GpioEvent" eSuperTypes="#//Event">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="event" lowerBound="1" eType="ecore:EClass Gpios.ecore#//gpiosevents/Event"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GpioActuator" eSuperTypes="#//Actuator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actuator" lowerBound="1"
+        eType="ecore:EClass Gpios.ecore#//gpiosactuators/Actuator" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NowEvent" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TimerEvent" eSuperTypes="#//Event">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="repeatEvery" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RemoteEvent" eSuperTypes="#//Event">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="event" lowerBound="1" eType="ecore:EClass Communications.ecore#//programevents/ProgramEventServiceEvent"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RemoteActuator" eSuperTypes="#//Actuator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actuator" lowerBound="1"
+        eType="ecore:EClass Communications.ecore#//programevents/ProgramEventServiceActuator"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SystemCommandActuator" eSuperTypes="#//Actuator">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="programPath" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeStateActuator" eSuperTypes="#//Actuator">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="state" lowerBound="1" eType="#//ProgramState"/>
+  </eClassifiers>
+</ecore:EPackage>

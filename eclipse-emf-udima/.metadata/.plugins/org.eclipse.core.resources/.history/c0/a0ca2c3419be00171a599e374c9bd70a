@@ -1,0 +1,36 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.gpio.gpioevents.tests;
+
+import es.udima.cesarlaso.tfm.gpio.gpioevents.ButtonInputReleased;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Button Input Released</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public abstract class ButtonInputReleasedTest extends EventTest {
+
+	/**
+	 * Constructs a new Button Input Released test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ButtonInputReleasedTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Button Input Released test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected ButtonInputReleased getFixture() {
+		return (ButtonInputReleased)fixture;
+	}
+
+} //ButtonInputReleasedTest

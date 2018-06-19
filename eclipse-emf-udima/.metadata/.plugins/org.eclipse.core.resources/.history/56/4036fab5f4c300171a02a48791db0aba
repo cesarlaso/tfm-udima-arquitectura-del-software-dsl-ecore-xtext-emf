@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Communications -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsModelWizardID"
+            name="%_UI_CommunicationsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CommunicationsModelFile.gif">
+         <description>%_UI_CommunicationsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Communications -->
+      <editor
+            id="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsEditorID"
+            name="%_UI_CommunicationsEditor_label"
+            icon="icons/full/obj16/CommunicationsModelFile.gif"
+            extensions="communications"
+            class="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated CommunicationsEvents -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.communicationsevents.presentation.CommunicationseventsModelWizardID"
+            name="%_UI_CommunicationseventsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.communicationsevents.presentation.CommunicationseventsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CommunicationseventsModelFile.gif">
+         <description>%_UI_CommunicationseventsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated CommunicationsEvents -->
+      <editor
+            id="es.udima.cesarlaso.tfm.communicationsevents.presentation.CommunicationseventsEditorID"
+            name="%_UI_CommunicationseventsEditor_label"
+            icon="icons/full/obj16/CommunicationseventsModelFile.gif"
+            extensions="communicationsevents"
+            class="es.udima.cesarlaso.tfm.communicationsevents.presentation.CommunicationseventsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.communicationsevents.presentation.CommunicationseventsActionBarContributor">
+      </editor>
+   </extension>
+</plugin>

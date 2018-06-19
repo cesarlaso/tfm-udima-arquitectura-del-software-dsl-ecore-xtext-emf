@@ -1,0 +1,101 @@
+#
+
+pluginName = Gpios Editor
+providerName = www.example.org
+
+_UI_GpiosEditor_menu = &Gpios Editor
+_UI_GpioseventsEditor_menu = &Gpiosevents Editor
+_UI_GpiosactuatorsEditor_menu = &Gpiosactuators Editor
+
+_UI_CreateChild_menu_item = &New Child
+_UI_CreateSibling_menu_item = N&ew Sibling
+
+_UI_ShowPropertiesView_menu_item = Show &Properties View
+_UI_RefreshViewer_menu_item = &Refresh
+
+_UI_SelectionPage_label = Selection
+_UI_ParentPage_label = Parent
+_UI_ListPage_label = List
+_UI_TreePage_label = Tree
+_UI_TablePage_label = Table
+_UI_TreeWithColumnsPage_label = Tree with Columns
+_UI_ObjectColumn_label = Object
+_UI_SelfColumn_label = Self
+
+_UI_NoObjectSelected = Selected Nothing
+_UI_SingleObjectSelected = Selected Object: {0}
+_UI_MultiObjectSelected = Selected {0} Objects
+
+_UI_OpenEditorError_label = Open Editor
+
+_UI_Wizard_category = Example EMF Model Creation Wizards
+
+_UI_CreateModelError_message = Problems encountered in file "{0}"
+
+_UI_GpiosModelWizard_label = Gpios Model
+_UI_GpiosModelWizard_description = Create a new Gpios model
+
+_UI_GpiosEditor_label = Gpios Model Editor
+
+_UI_GpiosEditorFilenameDefaultBase = My
+_UI_GpiosEditorFilenameExtensions = gpios
+
+_UI_GpioseventsModelWizard_label = Gpiosevents Model
+_UI_GpioseventsModelWizard_description = Create a new Gpiosevents model
+
+_UI_GpioseventsEditor_label = Gpiosevents Model Editor
+
+_UI_GpioseventsEditorFilenameDefaultBase = My
+_UI_GpioseventsEditorFilenameExtensions = gpiosevents
+
+_UI_GpiosactuatorsModelWizard_label = Gpiosactuators Model
+_UI_GpiosactuatorsModelWizard_description = Create a new Gpiosactuators model
+
+_UI_GpiosactuatorsEditor_label = Gpiosactuators Model Editor
+
+_UI_GpiosactuatorsEditorFilenameDefaultBase = My
+_UI_GpiosactuatorsEditorFilenameExtensions = gpiosactuators
+
+_UI_Wizard_label = New
+
+_WARN_FilenameExtension = The file name must end in ''.{0}''
+_WARN_FilenameExtensions = The file name must have one of the following extensions: {0}
+
+_UI_ModelObject = &Model Object
+_UI_XMLEncoding = &XML Encoding
+_UI_XMLEncodingChoices = UTF-8 ASCII UTF-16 UTF-16BE UTF-16LE ISO-8859-1
+_UI_Wizard_initial_object_description = Select a model object to create
+
+_UI_FileConflict_label = File Conflict
+_WARN_FileConflict = There are unsaved changes that conflict with changes made outside the editor.  Do you wish to discard this editor's changes?
+
+_UI_HealthmonitorsEditor_menu = &Healthmonitors Editor
+_UI_HealthmonitorsModelWizard_label = Healthmonitors Model
+_UI_HealthmonitorsModelWizard_description = Create a new Healthmonitors model
+_UI_HealthmonitorsEditor_label = Healthmonitors Model Editor
+_UI_HealthmonitorsEditorFilenameDefaultBase = My
+_UI_HealthmonitorsEditorFilenameExtensions = healthmonitors
+_UI_CommunicationsEditor_menu = &Communications Editor
+_UI_StatusEditor_menu = &Status Editor
+_UI_HealthsEditor_menu = &Healths Editor
+_UI_ProgrameventsEditor_menu = &Programevents Editor
+_UI_CommunicationsModelWizard_label = Communications Model
+_UI_CommunicationsModelWizard_description = Create a new Communications model
+_UI_CommunicationsEditor_label = Communications Model Editor
+_UI_CommunicationsEditorFilenameDefaultBase = My
+_UI_CommunicationsEditorFilenameExtensions = communications
+_UI_StatusModelWizard_label = Status Model
+_UI_StatusModelWizard_description = Create a new Status model
+_UI_StatusEditor_label = Status Model Editor
+_UI_StatusEditorFilenameDefaultBase = My
+_UI_StatusEditorFilenameExtensions = status
+_UI_HealthsModelWizard_label = Healths Model
+_UI_HealthsModelWizard_description = Create a new Healths model
+_UI_HealthsEditor_label = Healths Model Editor
+_UI_HealthsEditorFilenameDefaultBase = My
+_UI_HealthsEditorFilenameExtensions = healths
+_UI_ProgrameventsModelWizard_label = Programevents Model
+_UI_ProgrameventsModelWizard_description = Create a new Programevents model
+_UI_ProgrameventsEditor_label = Programevents Model Editor
+_UI_ProgrameventsEditorFilenameDefaultBase = My
+_UI_ProgrameventsEditorFilenameExtensions = programevents

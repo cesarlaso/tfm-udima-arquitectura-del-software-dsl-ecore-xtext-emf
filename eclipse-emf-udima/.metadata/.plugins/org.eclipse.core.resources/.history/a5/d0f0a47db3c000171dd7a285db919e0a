@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="gpios" nsURI="http://tfm.cesarlaso.udima.es/gpios" nsPrefix="es.udima.cesarlaso.tfm.gpios">
+  <eClassifiers xsi:type="ecore:EClass" name="Pin" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="number" lowerBound="1"
+        eType="#//PinNumber"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DigitalPin" eSuperTypes="#//Pin">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Activa o desactiva un PIN"/>
+    </eAnnotations>
+    <eOperations name="read" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eOperations name="write" lowerBound="1">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eOperations>
+    <eOperations name="attachInterrupt" lowerBound="1">
+      <eParameters name="mode" lowerBound="1" eType="#//InterruptMode"/>
+    </eOperations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AnalogPin" eSuperTypes="#//Pin">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Escribe valores analogicos mediante la generación de un PWM &#xA;&#xA;https://playground.arduino.cc/ArduinoNotebookTraduccion/Appendix3&#xA;"/>
+    </eAnnotations>
+    <eOperations name="read" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eOperations name="write" lowerBound="1">
+      <eParameters name="value" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    </eOperations>
+    <eOperations name="setResolution" lowerBound="1">
+      <eParameters name="resolution" eType="#//DacResolution"/>
+    </eOperations>
+    <eOperations name="getResolution" lowerBound="1" eType="#//DacResolution"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="InterruptMode">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Modo de interrupción"/>
+    </eAnnotations>
+    <eLiterals name="Rising" value="1">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="La interrupción se activa cuando el estado pasa de bajo a alto"/>
+      </eAnnotations>
+    </eLiterals>
+    <eLiterals name="Falling" value="2">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="La interrupción se activa cuando el estado pasa de alto a bajo"/>
+      </eAnnotations>
+    </eLiterals>
+    <eLiterals name="Changes" value="3">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="La interrupción se activa cuando cambia de estado"/>
+      </eAnnotations>
+    </eLiterals>
+    <eLiterals name="Low" value="4">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="La interrupción se activa de forma continua mientras el estado sea bajo"/>
+      </eAnnotations>
+    </eLiterals>
+    <eLiterals name="High" value="5">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="La interrupción se activa de forma continua mientras el estado sea alto"/>
+      </eAnnotations>
+    </eLiterals>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="PinNumber">
+    <eLiterals name="Gpio01" value="1" literal="Gpio01"/>
+    <eLiterals name="Gpio02" value="2" literal="Gpio02"/>
+    <eLiterals name="Gpio03" value="3" literal="Gpio03"/>
+    <eLiterals name="Gpio04" value="4" literal="Gpio04"/>
+    <eLiterals name="Gpio05" value="5" literal="Gpio05"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="DacResolution">
+    <eLiterals name="Bits8" value="8" literal="Bits8"/>
+    <eLiterals name="Bits12" value="12" literal="Bits12"/>
+    <eLiterals name="Bits16" value="16" literal="Bits16"/>
+    <eLiterals name="Bits24" value="24" literal="Bits24"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="PinResistor">
+    <eLiterals name="PullUp"/>
+    <eLiterals name="PullDown" value="1"/>
+  </eClassifiers>
+</ecore:EPackage>

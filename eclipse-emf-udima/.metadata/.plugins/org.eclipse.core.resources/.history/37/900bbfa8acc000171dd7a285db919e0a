@@ -1,0 +1,160 @@
+/**
+ */
+package a;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Package</b> for the model.
+ * It contains accessors for the meta objects to represent
+ * <ul>
+ *   <li>each class,</li>
+ *   <li>each feature of each class,</li>
+ *   <li>each operation of each class,</li>
+ *   <li>each enum,</li>
+ *   <li>and each data type</li>
+ * </ul>
+ * <!-- end-user-doc -->
+ * @see a.AFactory
+ * @model kind="package"
+ * @generated
+ */
+public interface APackage extends EPackage {
+	/**
+	 * The package name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNAME = "a";
+
+	/**
+	 * The package namespace URI.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_URI = "http://a.com";
+
+	/**
+	 * The package namespace name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_PREFIX = "a";
+
+	/**
+	 * The singleton instance of the package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	APackage eINSTANCE = a.impl.APackageImpl.init();
+
+	/**
+	 * The meta object id for the '{@link a.impl.EntidadImpl <em>Entidad</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see a.impl.EntidadImpl
+	 * @see a.impl.APackageImpl#getEntidad()
+	 * @generated
+	 */
+	int ENTIDAD = 0;
+
+	/**
+	 * The feature id for the '<em><b>Nombre</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ENTIDAD__NOMBRE = 0;
+
+	/**
+	 * The number of structural features of the '<em>Entidad</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ENTIDAD_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Entidad</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ENTIDAD_OPERATION_COUNT = 0;
+
+
+	/**
+	 * Returns the meta object for class '{@link a.Entidad <em>Entidad</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Entidad</em>'.
+	 * @see a.Entidad
+	 * @generated
+	 */
+	EClass getEntidad();
+
+	/**
+	 * Returns the meta object for the attribute '{@link a.Entidad#getNombre <em>Nombre</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Nombre</em>'.
+	 * @see a.Entidad#getNombre()
+	 * @see #getEntidad()
+	 * @generated
+	 */
+	EAttribute getEntidad_Nombre();
+
+	/**
+	 * Returns the factory that creates the instances of the model.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the factory that creates the instances of the model.
+	 * @generated
+	 */
+	AFactory getAFactory();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * Defines literals for the meta objects that represent
+	 * <ul>
+	 *   <li>each class,</li>
+	 *   <li>each feature of each class,</li>
+	 *   <li>each operation of each class,</li>
+	 *   <li>each enum,</li>
+	 *   <li>and each data type</li>
+	 * </ul>
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	interface Literals {
+		/**
+		 * The meta object literal for the '{@link a.impl.EntidadImpl <em>Entidad</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see a.impl.EntidadImpl
+		 * @see a.impl.APackageImpl#getEntidad()
+		 * @generated
+		 */
+		EClass ENTIDAD = eINSTANCE.getEntidad();
+
+		/**
+		 * The meta object literal for the '<em><b>Nombre</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute ENTIDAD__NOMBRE = eINSTANCE.getEntidad_Nombre();
+
+	}
+
+} //APackage

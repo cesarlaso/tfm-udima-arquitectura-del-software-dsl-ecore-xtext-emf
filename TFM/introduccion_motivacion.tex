@@ -1,0 +1,69 @@
+\section{Contextualización}
+
+%Quizas es mejor empezando con el párrafo <<Actualmente existen multitud>> ...  Adaptalo para introducir IOT y la importancia de la misma. 
+
+% Tengo un párrafo que quizás encaje bien aquí. Lo paso más tarde.
+
+% Tienes que justificar el párrafo.  Qué vas a mejorar, Cómo lo vas a mejorar, y Por qué debe ser mejorado.
+
+Actualmente existen multitud de productos hardware orientados al \gls{iot}. Dispositivos de bajo coste, los cuales combinan hardware y software para conectar entradas y salidas físicas o digitales a internet.
+
+\acrshort{iot} esta compuesto por diferentes soluciones tecnológicas. Esto implica tomar decisiones en función de las tecnologías presentes.
+
+La naturaleza de este proyecto fin de máster esta condicionada por la asignatura \textit{Diseño avanzado en arquitecturas software} \cite{udima_diseno_avanzado_arquitecturas_software}, la cual trata las áreas \gls{mde}, \gls{dsl} y patrones de arquitectura de software.
+
+% Esta muy bien redactado, aunque yo suelo usar la siguiente estrategía. La primera frase del párrafo es la idea principal, y las siguientes justifican esta. La primera frase es la más importar, por lo que suelo escribir una frase corta y asertiva. por ejemplo, en el siguiente párrafo la idea principal es que hay gran cantidad de tecnologías disponibles. Por este motivo yo escribiría la frase de la siguiente manera <<El mercado tecnológico esta muy fragmentado existiendo un gran número de soluciones. En el caso de hardware, [Introduce lo de Rasberry pi].[Introduce lo de las librerías y lenguajes]. >>    
+
+El mercado tecnológico esta muy fragmentado respecto a soluciones \acrshort{iot}. Contamos con plataformas basadas en hardware abierto tales como Raspberry Pi\cite{raspberrypi}, BeagleBone \cite{beaglebone} o Arduino \cite{arduino}.
+
+Cada una de estas plataformas hardware cuenta con su entorno de desarrollo propio, siendo necesario código en un lenguaje específico para cada plataforma.
+
+\section{Motivación}
+
+Necesitamos que el desarrollo de productos basado en hardware sea compatible con la mayoría de plataformas del mercado, pudiendo de esta manera no depender de la plataforma específica seleccionada, ni del software requerido por esta.
+
+Para ello, se hace necesario implementar nuestro desarrollo utilizando una abstracción de la plataforma de forma que sea totalmente independiente de esta, no quedando atado a ningún sistema hardware/software en concreto, incluyendo las partes especificas a la plataforma de forma independiente al desarrollo del producto.
+
+Esto supone una ventaja competitiva al poder definir nuestro producto sin depender de una implementación concreta. 
+
+Que vamos a mejorar con la solución basada en \gls{mde}/\gls{mdsd}:
+
+\begin{itemize}
+\item Alineación del modelo de negocio con el desarrollo software.
+\item Documentación actualizada entre modelos y código.
+\item Independencia de la plataforma hardware y software destino mediante la generación de código.
+
+\end{itemize}
+
+% Creo que la ventaja de los DSL es ortogonalizar el diseño de la elección tecnológica. De esta manera puedes tener diseños que expresan la relación entre los diferentes elementos que conforman el diseño. Para ello no se usa un vocabulario tecnológico, sino uno que solo se modela los elementos del area de negocio en cuestión. Por ejemplo, imagina que desarrollamos aplicaciones para la  gestión de camas de hospitales. podremos definir el problema en función de la información que queremos visualizar, como se acomadan a los pacientes, durante cuanto tiempo se almacena la información de un paciente, etc. Este modelo es formal, y  permite definir  n proyecciones  a diferentes soluciones tecnológicas. De tal manera que la proyección se realizan sobre lenguajes de programación de proposito general. en nuestro caso anterior, la gestión se expresara en lenguajes como C, Java, y otras soluciones tecnológicas. Esto propuesta tiene otras ventajas, a continuación enumeramos algunas de ellas: 1) Se vertebra el proceso desde un lenguaje cercano a los requisitos del area de negocio hasta la propuesta tecnológica, 2) Se pueden definir patrones arquictónicos usados transversalmente en diferentes soluciones tecnológicos, 3) El proceso de ingeniería software no esta conducido por documentación, sino esta conducido por modelos. 
+
+\subsection{¿Como vamos a mejorarlo?}
+
+\begin{itemize}
+
+\item Mediante la creación de un lenguaje específico de dominio orientado a este tipo de producto.
+
+\item Con la creación de modelos que definan los elementos de este lenguaje y de los diferentes aspectos que integran este dominio, los cuales definan las cualidades y relaciones entre los diferentes elementos del diseño.
+ 
+\item Utilizar un \gls{dsl} donde ortogonalizamos el diseño de elección tecnológica. De esta manera podemos especificar las relaciones entre los diferentes elementos que conforman el diseño en el propio vocabulario del área de negocio en cuestión. Este modelo, es formal y permite definir proyecciones a diferentes soluciones tecnológicas, normalmente sobre lenguajes de propósito general. Esto propuesta tiene otras ventajas, a continuación enumeramos algunas de ellas
+
+\begin{itemize}
+    \item Se vertebra el proceso desde un lenguaje cercano a los requisitos del área de negocio hasta la propuesta tecnológica, \item Se pueden definir patrones arquitectónicos usados transversalmente en diferentes soluciones tecnológicos
+    \item El proceso de ingeniería software no esta conducido por documentación, sino esta conducido por modelos. 
+\end{itemize}
+
+\item Despliegue del \gls{dsl} a la plataforma destino, con su implementación concreta tanto en plataforma de desarrollo, lenguaje de programación, como en implementación de software con hardware.
+
+\item Automatización de la documentación, validación y verificación de lo definido junto al modelo de negocio.
+
+\end{itemize}
+
+Utilizando \gls{mde} y \gls{mdsd} podemos utilizar estas definiciones e implementarlas directamente en software mediante la transformación de modelos, evitando así la descoordinación entre requisitos, documentación e implementación dentro de un proyecto software.
+
+En la sección anexa \ref{appendix:dsl_motivacion_ejemplo} podemos ver un primer ejemplo de un código no final en un \gls{dsl} simulado.
+
+
+\subsection{¿Por que debe ser mejorado?}
+
+El desarrollo de este tipo de productos requiere una alta integración con la plataforma destino, lo que supone duplicar el desarrollo para cada una de las diferentes plataformas.
+Esto normalmente implica tener diferentes equipos y soluciones para cada una de ellas, con los costes que supone.

@@ -1,0 +1,36 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.gpio.gpioactuators.tests;
+
+import es.udima.cesarlaso.tfm.gpio.gpioactuators.ButtonOutput;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Button Output</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public abstract class ButtonOutputTest extends ActuatorTest {
+
+	/**
+	 * Constructs a new Button Output test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public ButtonOutputTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Button Output test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected ButtonOutput getFixture() {
+		return (ButtonOutput)fixture;
+	}
+
+} //ButtonOutputTest

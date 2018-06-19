@@ -1,0 +1,71 @@
+#
+
+pluginName = Gpio Editor
+providerName = www.example.org
+
+_UI_GpioEditor_menu = &Gpio Editor
+_UI_GpioeventsEditor_menu = &Gpioevents Editor
+_UI_GpioactuatorsEditor_menu = &Gpioactuators Editor
+
+_UI_CreateChild_menu_item = &New Child
+_UI_CreateSibling_menu_item = N&ew Sibling
+
+_UI_ShowPropertiesView_menu_item = Show &Properties View
+_UI_RefreshViewer_menu_item = &Refresh
+
+_UI_SelectionPage_label = Selection
+_UI_ParentPage_label = Parent
+_UI_ListPage_label = List
+_UI_TreePage_label = Tree
+_UI_TablePage_label = Table
+_UI_TreeWithColumnsPage_label = Tree with Columns
+_UI_ObjectColumn_label = Object
+_UI_SelfColumn_label = Self
+
+_UI_NoObjectSelected = Selected Nothing
+_UI_SingleObjectSelected = Selected Object: {0}
+_UI_MultiObjectSelected = Selected {0} Objects
+
+_UI_OpenEditorError_label = Open Editor
+
+_UI_Wizard_category = Example EMF Model Creation Wizards
+
+_UI_CreateModelError_message = Problems encountered in file "{0}"
+
+_UI_GpioModelWizard_label = Gpio Model
+_UI_GpioModelWizard_description = Create a new Gpio model
+
+_UI_GpioEditor_label = Gpio Model Editor
+
+_UI_GpioEditorFilenameDefaultBase = My
+_UI_GpioEditorFilenameExtensions = gpio
+
+_UI_GpioeventsModelWizard_label = Gpioevents Model
+_UI_GpioeventsModelWizard_description = Create a new Gpioevents model
+
+_UI_GpioeventsEditor_label = Gpioevents Model Editor
+
+_UI_GpioeventsEditorFilenameDefaultBase = My
+_UI_GpioeventsEditorFilenameExtensions = gpioevents
+
+_UI_GpioactuatorsModelWizard_label = Gpioactuators Model
+_UI_GpioactuatorsModelWizard_description = Create a new Gpioactuators model
+
+_UI_GpioactuatorsEditor_label = Gpioactuators Model Editor
+
+_UI_GpioactuatorsEditorFilenameDefaultBase = My
+_UI_GpioactuatorsEditorFilenameExtensions = gpioactuators
+
+_UI_Wizard_label = New
+
+_WARN_FilenameExtension = The file name must end in ''.{0}''
+_WARN_FilenameExtensions = The file name must have one of the following extensions: {0}
+
+_UI_ModelObject = &Model Object
+_UI_XMLEncoding = &XML Encoding
+_UI_XMLEncodingChoices = UTF-8 ASCII UTF-16 UTF-16BE UTF-16LE ISO-8859-1
+_UI_Wizard_initial_object_description = Select a model object to create
+
+_UI_FileConflict_label = File Conflict
+_WARN_FileConflict = There are unsaved changes that conflict with changes made outside the editor.  Do you wish to discard this editor's changes?
+

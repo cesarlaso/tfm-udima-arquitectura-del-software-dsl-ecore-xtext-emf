@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" xmi:id="_j4NeUMCZEee4EJf_-AM2dQ" selectedViews="_THs-cMCtEee4EJf_-AM2dQ _TIFY8MCtEee4EJf_-AM2dQ _TIOi4MCtEee4EJf_-AM2dQ _TIdMYMCtEee4EJf_-AM2dQ" version="12.0.0.201704271200">
+  <semanticResources>My.ecore</semanticResources>
+  <semanticResources>My.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.eclipse.resources.mgt/fcs/Resources.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/ModelDrivenPatternStrategy.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.pattern.ftask/egf/Model_driven_pattern_strategy_task.fcore</semanticResources>
+  <semanticResources>My1.ecore</semanticResources>
+  <semanticResources>My1.genmodel</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>My.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.pattern/egf/EMF_Pattern.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.pattern.base/egf/EMF_Pattern_Base.fcore</semanticResources>
+  <semanticResources>Mya.fcore</semanticResources>
+  <semanticResources>My_2_My1.ecore2ecore</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_THs-cMCtEee4EJf_-AM2dQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_TIFY8MCtEee4EJf_-AM2dQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_TIOi4MCtEee4EJf_-AM2dQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Archetype']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" xmi:id="_TIdMYMCtEee4EJf_-AM2dQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Generation']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

@@ -1,0 +1,160 @@
+/**
+ */
+package ab;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Package</b> for the model.
+ * It contains accessors for the meta objects to represent
+ * <ul>
+ *   <li>each class,</li>
+ *   <li>each feature of each class,</li>
+ *   <li>each operation of each class,</li>
+ *   <li>each enum,</li>
+ *   <li>and each data type</li>
+ * </ul>
+ * <!-- end-user-doc -->
+ * @see ab.AbFactory
+ * @model kind="package"
+ * @generated
+ */
+public interface AbPackage extends EPackage {
+	/**
+	 * The package name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNAME = "ab";
+
+	/**
+	 * The package namespace URI.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_URI = "http://a.com";
+
+	/**
+	 * The package namespace name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_PREFIX = "ab";
+
+	/**
+	 * The singleton instance of the package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	AbPackage eINSTANCE = ab.impl.AbPackageImpl.init();
+
+	/**
+	 * The meta object id for the '{@link ab.impl.UsuarioImpl <em>Usuario</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see ab.impl.UsuarioImpl
+	 * @see ab.impl.AbPackageImpl#getUsuario()
+	 * @generated
+	 */
+	int USUARIO = 0;
+
+	/**
+	 * The feature id for the '<em><b>Nombre</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int USUARIO__NOMBRE = 0;
+
+	/**
+	 * The number of structural features of the '<em>Usuario</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int USUARIO_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Usuario</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int USUARIO_OPERATION_COUNT = 0;
+
+
+	/**
+	 * Returns the meta object for class '{@link ab.Usuario <em>Usuario</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Usuario</em>'.
+	 * @see ab.Usuario
+	 * @generated
+	 */
+	EClass getUsuario();
+
+	/**
+	 * Returns the meta object for the attribute '{@link ab.Usuario#getNombre <em>Nombre</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Nombre</em>'.
+	 * @see ab.Usuario#getNombre()
+	 * @see #getUsuario()
+	 * @generated
+	 */
+	EAttribute getUsuario_Nombre();
+
+	/**
+	 * Returns the factory that creates the instances of the model.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the factory that creates the instances of the model.
+	 * @generated
+	 */
+	AbFactory getAbFactory();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * Defines literals for the meta objects that represent
+	 * <ul>
+	 *   <li>each class,</li>
+	 *   <li>each feature of each class,</li>
+	 *   <li>each operation of each class,</li>
+	 *   <li>each enum,</li>
+	 *   <li>and each data type</li>
+	 * </ul>
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	interface Literals {
+		/**
+		 * The meta object literal for the '{@link ab.impl.UsuarioImpl <em>Usuario</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see ab.impl.UsuarioImpl
+		 * @see ab.impl.AbPackageImpl#getUsuario()
+		 * @generated
+		 */
+		EClass USUARIO = eINSTANCE.getUsuario();
+
+		/**
+		 * The meta object literal for the '<em><b>Nombre</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute USUARIO__NOMBRE = eINSTANCE.getUsuario_Nombre();
+
+	}
+
+} //AbPackage

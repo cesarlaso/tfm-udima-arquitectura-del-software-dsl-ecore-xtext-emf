@@ -1,0 +1,5 @@
+package es.udima.tfm.cesarlaso.generator.java
+
+class TelemetryGenerator {
+	
+}

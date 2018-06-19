@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="communications" nsURI="http://tfm.cesarlaso.udima.es/communications"
+    nsPrefix="es.udima.cesarlaso.tfm.communications">
+  <eClassifiers xsi:type="ecore:EClass" name="Packet">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Un paquete define la unidad minima de comunicación entre el sistema cliente servidor. Un paquete contiene un numero de secuencia de envío, timestamp de fecha de envío, y uno o varios servicios"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="secuence" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="El número de secuencia, como su nombre indica, ha de ser secuencial desde el punto de vista de quien genere este nímero."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="timestamp" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Numero de segundos en formato Unix timestamp, con precisión de milisegundos."/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="services" lowerBound="1"
+        upperBound="-1" eType="#//Service">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Un paquete no puede ir vacio, como mínimo tiene que tener un servicio. &#xA;Un ejemplo de paquete vacio de control es un paquete con un servicio Ping"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Service" abstract="true">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="Los servicios son abstractos, puediendo ser varios como:&#xA;Servicio de control (ping/pong), servicio de salud, servicio de actualización de programa, servicio de notificación.&#xA;Es un tipo extensible."/>
+    </eAnnotations>
+  </eClassifiers>
+  <eSubpackages name="status" nsURI="http://tfm.cesarlaso.udima.es/communications/status"
+      nsPrefix="es.udima.cesarlaso.tfm.communications.status">
+    <eClassifiers xsi:type="ecore:EClass" name="StatusService" abstract="true" eSuperTypes="#//Service">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Servicio para mantener abierta la conexión, típico KeepAlive mediante paquetes ping-pong"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Ping" eSuperTypes="#//status/StatusService">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Emitido desde cualquiera de las partes, tanto cliente como servidor"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="secuence" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="documentation" value="Indica el número total de pings realizados desde la propia parte"/>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Pong" eSuperTypes="#//status/StatusService">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Respuesta al comando Ping"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="secuence" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+        <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+          <details key="documentation" value="Es el mismo número de secuencia que el Ping recibido"/>
+        </eAnnotations>
+      </eStructuralFeatures>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="healths" nsURI="http://tfm.cesarlaso.udima.es/communications/healths"
+      nsPrefix="es.udima.cesarlaso.tfm.communications.healths">
+    <eClassifiers xsi:type="ecore:EClass" name="HealthService" eSuperTypes="#//Service">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Proporiciona un paquete de servicios de salud del dispositivo"/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="HealthMonitorItems" eSuperTypes="#//healths/HealthService">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Proporiciona un paquete de servicios de salud del dispositivo"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestIdentifier" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="items" lowerBound="1"
+          upperBound="-1" eType="ecore:EClass HealthMonitors.ecore#//HealthItem"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="HealthMonitorCommand" abstract="true"
+        eSuperTypes="#//healths/HealthMonitorItems"/>
+    <eClassifiers xsi:type="ecore:EClass" name="MonitorGetEnabledStatusCommand" eSuperTypes="#//healths/HealthMonitorCommand">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Permite habilitar o deshabilitar el monitor de salud en el dispositivo"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="enabled" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MonitorChangeEnabledStatus" eSuperTypes="#//healths/HealthMonitorCommand">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Permite habilitar o deshabilitar el monitor de salud en el dispositivo"/>
+      </eAnnotations>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="enabled" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="MonitorChangeItemInterval" eSuperTypes="#//healths/HealthMonitorCommand">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="item" lowerBound="1"
+          eType="#//healths/ItemType"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="interval" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="requestNow" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EEnum" name="ItemType">
+      <eLiterals name="CPULoad"/>
+      <eLiterals name="RAMLoad" value="1"/>
+      <eLiterals name="CPUTemperature" value="2"/>
+      <eLiterals name="GPUTemperature" value="3"/>
+      <eLiterals name="HDIO" value="4"/>
+      <eLiterals name="NetworkIO" value="5"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="programevents" nsURI="http://tfm.cesarlaso.udima.es/communications.remoteevents"
+      nsPrefix="es.udima.cesarlaso.tfm.communications.remoteevents">
+    <eClassifiers xsi:type="ecore:EClass" name="ProgramEventService" abstract="true"
+        eSuperTypes="#//Service">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="generatedTimestamp" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ProgramEventServiceEvent" eSuperTypes="#//programevents/ProgramEventService">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Un evento remoto sirve para de forma remota poder ejecutar eventos en el dispositivo. Como por ejemplo llamar a un actuador.&#xA;Un ejemplo podria ser, abrir una puerta, el dispositivo al recibir el evento, realizararía la llamada a sus actuadores asociados."/>
+      </eAnnotations>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ProgramEventServiceActuator" eSuperTypes="#//programevents/ProgramEventService">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+        <details key="documentation" value="Un evento a sido realizado en el disposiivo"/>
+      </eAnnotations>
+    </eClassifiers>
+  </eSubpackages>
+</ecore:EPackage>

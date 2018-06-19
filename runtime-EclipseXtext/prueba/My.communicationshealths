@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<es.udima.cesarlaso.tfm.communications.healths:HealthMonitorNotification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:es.udima.cesarlaso.tfm.communications.healths="http://tfm.cesarlaso.udima.es/communications/healths" xmlns:es.udima.cesarlaso.tfm.healthmonitors="http://tfm.cesarlaso.udima.es/healthmonitors">
+  <monitor xsi:type="es.udima.cesarlaso.tfm.healthmonitors:CpuLoadData" adquisitionTimestamp="123" load="50"/>
+  <monitor xsi:type="es.udima.cesarlaso.tfm.healthmonitors:CpuTemperatureData" adquisitionTimestamp="123" temperature="20.0"/>
+</es.udima.cesarlaso.tfm.communications.healths:HealthMonitorNotification>

@@ -1,0 +1,30 @@
+\section{Modelos}
+
+A continuación detallamos los modelos que han sido diseñados, mostrando el nombre del modelo, un diagrama de clases contenido para cada modelo, y una documentación generada a partir de las propias anotaciones del modelo.
+
+El generador de aplicaciones \gls{iot} cuenta con los siguientes grupos de modelos:
+
+\begin{itemize}
+\item Modelos relativos al sistema de eventos.
+Todo el sistema depende de estos modelos, eventos y actuadores.
+
+\item Modelos relativos al protocolo de comunicación. Modela las diferentes partes dentro del modelo de comunicación. Eventos, seguridad, estado de salud.
+
+\item Modelos relativos al propio sistema \gls{iot}. Modela la composición básica del sistema, entradas/salidas, archivos, gráficos, sonidos.
+
+\item Modelos relativos al servidor, usuarios, seguridad.
+\end{itemize}
+
+Para todos los modelos analizados, mostraremos su diagrama de clases, generado a partir de la transformación creada con \gls{sirius} \cite{sirius} y en algunos de ellos, esquemas en formato \gls{ecore} tree/doc... como anexo para un mayor entendimiento y fácil lectura de esta memoria.
+
+Debido a que el código fuente es muy extenso, no será incluido en la sección anexos y  podrán ser descargado en formato \gls{zip} en la siguiente URL: \textcite{tfm_cesarlaso_codigo}
+
+\input{desarrollo/modelos/iot}
+\input{desarrollo/modelos/health}
+\input{desarrollo/modelos/comunicacion}
+\input{desarrollo/modelos/device}
+\input{desarrollo/modelos/servidor}
+\input{desarrollo/modelos/comunes}
+
+\input{desarrollo/modelos/iot_proyect}
+\input{desarrollo/modelos/iot_program}

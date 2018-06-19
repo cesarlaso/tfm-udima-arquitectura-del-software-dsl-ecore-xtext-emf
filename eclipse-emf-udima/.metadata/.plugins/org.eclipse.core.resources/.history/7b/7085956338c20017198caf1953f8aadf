@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Communications -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsModelWizardID"
+            name="%_UI_CommunicationsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CommunicationsModelFile.gif">
+         <description>%_UI_CommunicationsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Communications -->
+      <editor
+            id="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsEditorID"
+            name="%_UI_CommunicationsEditor_label"
+            icon="icons/full/obj16/CommunicationsModelFile.gif"
+            extensions="communications"
+            class="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.communications.presentation.CommunicationsActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated CommunicationsHealth -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.communicationshealths.presentation.CommunicationshealthsModelWizardID"
+            name="%_UI_CommunicationshealthsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.communicationshealths.presentation.CommunicationshealthsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CommunicationshealthsModelFile.gif">
+         <description>%_UI_CommunicationshealthsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated CommunicationsHealth -->
+      <editor
+            id="es.udima.cesarlaso.tfm.communicationshealths.presentation.CommunicationshealthsEditorID"
+            name="%_UI_CommunicationshealthsEditor_label"
+            icon="icons/full/obj16/CommunicationshealthsModelFile.gif"
+            extensions="communicationshealths"
+            class="es.udima.cesarlaso.tfm.communicationshealths.presentation.CommunicationshealthsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.communicationshealths.presentation.CommunicationshealthsActionBarContributor">
+      </editor>
+   </extension>
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated CommunicationsPrograms -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.communicationsprograms.presentation.CommunicationsprogramsModelWizardID"
+            name="%_UI_CommunicationsprogramsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.communicationsprograms.presentation.CommunicationsprogramsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/CommunicationsprogramsModelFile.gif">
+         <description>%_UI_CommunicationsprogramsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated CommunicationsPrograms -->
+      <editor
+            id="es.udima.cesarlaso.tfm.communicationsprograms.presentation.CommunicationsprogramsEditorID"
+            name="%_UI_CommunicationsprogramsEditor_label"
+            icon="icons/full/obj16/CommunicationsprogramsModelFile.gif"
+            extensions="communicationsprograms"
+            class="es.udima.cesarlaso.tfm.communicationsprograms.presentation.CommunicationsprogramsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.communicationsprograms.presentation.CommunicationsprogramsActionBarContributor">
+      </editor>
+   </extension>
+</plugin>

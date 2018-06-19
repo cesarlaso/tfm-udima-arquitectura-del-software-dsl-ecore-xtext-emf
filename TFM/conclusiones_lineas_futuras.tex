@@ -1,0 +1,99 @@
+\chapter{Conclusiones y líneas futuras}
+ 
+\section{Conclusiones}
+
+El desarrollo mediante \gls{mde} consigue centrar todo el proceso de diseño de la arquitectura del sistema en la realización de modelos y transformación entre estos modelos.
+Esto permite centralizar en una misma fuente de información tanto diagramas de clases, documentación y generación de código, tanto de \gls{metamodelado}, como de generación de código para distintos lenguajes de programación y plataformas mediante \gls{xtext}. Todo partiendo desde la misma fuente de información, los modelos \gls{ecore}, realizando transformaciones y representaciones de estos modelos en sus respectivos formatos.
+
+Un nivel tan alto de abstracción cuenta con una serie de inconvenientes, pues corremos el riesgo de alejarnos demasiado de nuestro producto o negocio y realizar un diseño demasiado genérico.
+
+Empezar de cero utilizando esta metodología, sin contar con una amplia experiencia en esta, nos va a llevar a no poder cumplir unos plazos razonables. Solo deberíamos utilizar este tipo de metodologías, una vez dentro de nuestros productos necesitemos este grado de abstracción. Antes de ello siempre deberíamos definir nuestra linea de productos software siempre prefiriendo los siguientes pasos \cite{TheConfigurationComplexityClock}: 
+
+\begin{enumerate}
+\item Reglas de negocio dentro del propio código.
+\item Reglas de negocio mediante variables en el propio código en compilación.
+\item Configuración externalizada en \gls{runtime}.
+\item Motores de reglas dinámicos en \gls{runtime}.
+\item \gls{dsl} y generación de código.
+\end{enumerate}
+
+
+No podemos discutir la ventaja de usar un \gls{dsl}, solamente tenemos que ver ejemplos de uso diario entre toda la comunidad dedicada a temas relativos a la informática, ejemplos como \gls{sql}, \gls{html}, \gls{css}, etc; Lenguajes ampliamente conocidos y muy orientados a su dominio específico.
+
+Realizar un \gls{dsl} no es tarea fácil, solamente tenemos que ver la evolución de los lenguajes de programación generalistas para ver como en sus  sucesivas iteraciones han ido evolucionando adaptándose a las necesidades del mercado, y en demasiadas ocasiones a tendencias o modas no alineadas con lo solicitado por el mundo empresarial. Pongamos como ejemplo el lenguaje de programación genérico , orientado a funcional Haskell \cite{haskell}, originado en el mundo académico y en el momento de escribir esta memoria, con poco recorrido.
+
+Se debería utilizar un \gls{dsl} cuando son sistemas no cambiantes y altamente definidos. Tomemos como ejemplo sistemas de soporte de vida, sistemas de tráfico, sistemas de aviación, satélites... Es altamente recomendable comenzar directamente con modelos y un lenguaje específico de dominio ya que las reglas del negocio es muy improbable que cambien a corto plazo.
+
+En sistemas de otro tipo, según mi experiencia es muy complicado realizar un lenguaje específico del dominio ya que constantemente estamos modificando todas las capas del producto con cada cambio. En productos estables se puede llegar a utilizar motores de reglas, o simplemente simples archivos de configuración, fijos o modificables en \gls{runtime}.
+
+En este caso, con la realización de este desarrollo, hemos abstraído tal vez, demasiada información útil de los dispositivos a utilizar, dejando de lado posibles mejoras para un producto que seguramente estará siempre muy unido a una plataforma. Tomemos como referencia a Joel Spolsky en la entrada \textit{The development abstraction layer} \cite{TheDevelopmentAbstractionLayer}.
+
+Hoy en día contamos con lenguajes donde es posible realizar meta programación desde el propio lenguaje, utilizando un \gls{dsl} interno, en vez de externo mediante un lenguaje con sintaxis propia, o mediante una sintaxis en un formato de archivo conocido como  \gls{xml} o \gls{json}.
+
+Igualmente, los propios \gls{ide} cuentan con herramientas de generación de código integrado en el propio proceso de desarrollo, lo que simplifica mucho el desarrollo de producto.
+
+Otro problema que igualmente tienen otros \gls{dsl} es la dificultad de uso para alguien que no pertenezca al equipo de desarrollo. Esto supone un gran problema, ya que es un nuevo lenguaje a aprender y dominar, en este caso un lenguaje muy sencillo, en el caso de un lenguaje complejo, puede suponer un problema.
+
+Al realizar este trabajo se ha constatado que se ha cometido el mismo error que otras plataformas de despliegue, es decir, crear un sistema propio para esta tarea.
+Los lenguajes de programación actuales son de muy alto nivel y permiten mucha mayor expresividad que la que podemos realizar mediante meta-modelado.
+
+Este problema, muy actual en informática, es realmente importante, cada fabricante quiere que utilicemos su \gls{framework}, dando una sensación de tener algo novedoso que nos soluciona los problemas, siendo todo lo contrario, nos ancla al uso de su producto.
+
+Como solución, deberíamos intentar generar librerías para su utilización posterior en otros programas.
+
+Otro problema que veo de difícil solución es la creación de código generado a partir de plantillas de texto. Esta transformación es poco útil, ya que perdemos la cantidad de utilidades que nos aportan los entornos de programación actuales, generando todo ese código extra que \gls{emf} genera. Código generable con lenguajes que permitan generar código dentro del propio lenguaje como C\# o Scala, permitiendo meta-programación directamente en el propio lenguaje creando sintaxis propia utilizando la propia arquitectura base.
+
+
+\subsection{Sobre Eclipse Modeling Framework}
+
+Eclipse cuenta con una comunidad de usurarios grande y estable. Igualmente cuenta con multitud de desarrollos basados en este entorno, como por ejemplo \gls{emf}. Algunos de estos proyectos a su vez basados en \gls{emf}.
+
+Tal multitud de proyectos nos llevan a tener muchos de ellos con características muy poco probadas con multitud de fallos.
+El desarrollo de este proyecto ha sido realmente tedioso principalmente por el mal funcionamiento de la plataforma por los siguientes motivos:
+
+\begin{itemize}
+    
+
+\item Versiones no actualizadas con el entorno Eclipse actual ya que la última versión data de 2014.
+
+\item Multitud de funcionalidad discontinuada o no compatible con el entorno Eclipse actual.
+
+\item Incapacidad de renombrar elementos en \gls{emf}. Una vez renombrado un elemento, \gls{emf} no es capaz de realizar un refactoring adecuado, siendo necesaria la modificación del elemento en todas las capas de abstracción. Esto no debería ser necesario, ya que tanto Java como \gls{xtext} conocen estos elementos en compilación, y el propio \gls{ide} podría resolver el problema automáticamente.
+
+\item Cache no coherente en \gls{emf}. Con la modificación de cualquier elemento,\gls{emf} no es capaz de actualizar su representación interna. Solucionado eliminando todos los caches que genera en disco y reiniciando la aplicación. Esto implica lo siguiente: Se está generando un cache de datos que luego no sirven para nada, con la gran carga de \gls{io} que supone. Para el desarrollo de este proyecto se ha solucionado estos tiempos de espera mediante la utilización de discos virtuales en RAM. Teniendo el \textit{workspace} y la propia aplicación Eclipse montada directamente sobre un disco en RAM. Aún así no nos libramos de los tiempos de carga de todo el entorno que de por sí son siempre altos.
+
+
+\item Desarrollo prueba y error: La transformación de código a partir de los modelos, es realizada a partir de plantillas de texto con su propio lenguaje de programación (\gls{xtext}). Comprobar el código generado acaba convirtiéndose en una especie de lo que comúnmente llamamos printf debugging, algo que con los IDEs actuales debería estar más que solucionado.
+La integración mediante pruebas unitarias es realmente complicada en su integración y demasiado lenta en su ejecución.
+
+\item Mezcla de lenguajes: La generación de código en base a texto es una práctica no recomendable y que nos puede llevar a dejar fallos de seguridad. El paso transformación modelo a código ejecutable estaría mejor realizado si esta transformación fuera tipada, mediante una generación explícita para lenguaje.
+
+\item Huevo o gallina: ¿Que fue primero el modelo o la implementación? Esto es algo que creo es un error fundamental y un modelo no debería depender de una implementación concreta algo que en \gls{ecore} ocurre por defecto.
+
+\item Simplicidad: Conseguimos hacer lo simple complicado y lo complicado igual de complicado. Mediante modelos no podemos expresar con la misma facilidad los requerimientos del dominio que con código. Sólo podremos realizarlo siempre que nuestro \gls{dsl} cuente con todo lo necesario. Un \gls{dsl} no puede ser un trabajo menor, es la base de todo el producto.
+
+\item Tendencia en modelado: No parece que el uso de MDA/MDE/MDSD/MDx sea algo que se este utilizando. Este tipo de metodología no termina de convencer a los usuarios, tan solo se mueve en entornos académicos de investigación y leyendo varios artículos de investigación, parece que todos terminan como este mismo TFM, hablando de la plataforma, realizando una mínima implementación de algo muy sencillo, pero sin ninguna implementación en proyectos reales, de varias dimensiones más complejos.
+
+\item Documentación: Por una parte genera de forma semi automática documentación en varios formatos, tales como: diagramas de clases, javadoc, excel... Documentación que solo sirve a personal técnico, documentación que al propio técnico le será mucho más útil ver directamente el código de alto nivel (no auto generado) como por ejemplo interfaces.
+
+\end{itemize}
+
+
+\subsection{Sobre DSL}
+
+Los lenguajes específicos de dominio son útiles cuando el dominio del que tratan es especializado, pero no en un dominio de negocio sino técnico. Esto es algo que vemos en muchos \gls{dsl}, lenguajes de bases de datos (\gls{sql}), de marcado de documentos (\gls{html}), de estilo de documentos (\gls{css}), de formateo de datos (\gls{xml}).
+
+Todos estos \gls{dsl} siempre cuentan con que no son aplicaciones finales sino componentes que utilizaremos para una aplicación final.
+
+En este caso hemos realizado un \gls{dsl} para la creación de aplicaciones \gls{iot}, caso anteriormente descrito, en vez de realizar un \gls{dsl} para una aplicación final. Ejemplo, \gls{dsl} para la automatización de un contador de monedas.
+
+En este caso sería útil la generación de código a partir de modelos, pero no parece práctica esta generación en la forma en la que se realiza con estas plataformas, siendo mucho más útil la generación de código en un \gls{dsl} dentro del propio lenguaje, como por ejemplo mediante macros en lenguajes como Scala, o las multitudes de variantes de Lisp como por ejemplo Clojure (situándolo en la misma maquina virtual de java como scala).
+
+
+\section{Líneas futuras}
+
+El proyecto cuenta con un número limitado de componentes modelados tanto en eventos, actuadores, acceso a sistema operativo y hardware. A modo demostrativo para este trabajo nos podemos hacer una idea que si este \gls{dsl} continuara en su desarrollo sería necesario integrar tanto librerías para estos dispositivos, sensores como actuadores (sensores de temperatura, humedad, presión, pantallas, motores...), librerías adicionales.
+
+Por ello, tal vez el uso de \gls{metamodelado} debería ser utilizad de la siguiente forma, en vez de ser los propios modelos los que generen un código final, los metamodelos generen código intermedio que hagan de enlace entre kits de desarrollo o APIs ya existentes y el \gls{dsl}.
+
+Por otra parte, por lo limitado del alcance de este proyecto, no ha sido posible el desarrollo de la generación de código del \gls{dsl} a su implementación para la \gls{jvm} o para plataformas integradas como Arduino. Una tarea de continuación sería primero comenzar con una arquitectura con sistema operativo de proposito general como Raspberry PI o Beaglebone, y una vez desarrollado este entorno, generar código para Arduino en general, y código para el sistema en tiempo real FreeRTOS.

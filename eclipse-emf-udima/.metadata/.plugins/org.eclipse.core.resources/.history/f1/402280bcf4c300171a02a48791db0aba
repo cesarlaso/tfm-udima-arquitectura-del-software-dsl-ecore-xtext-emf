@@ -1,0 +1,62 @@
+#
+
+pluginName = Communications Edit Support
+providerName = www.example.org
+
+_UI_CreateChild_text = {0}
+_UI_CreateChild_text2 = {1} {0}
+_UI_CreateChild_text3 = {1}
+_UI_CreateChild_tooltip = Create New {0} Under {1} Feature
+_UI_CreateChild_description = Create a new child of type {0} for the {1} feature of the selected {2}.
+_UI_CreateSibling_description = Create a new sibling of type {0} for the selected {2}, under the {1} feature of their parent.
+
+_UI_PropertyDescriptor_description = The {0} of the {1}
+
+_UI_Packet_type = Packet
+_UI_Service_type = Service
+_UI_Unknown_type = Object
+
+_UI_Unknown_datatype= Value
+
+_UI_Packet_secuence_feature = Secuence
+_UI_Packet_timestamp_feature = Timestamp
+_UI_Packet_services_feature = Services
+_UI_Unknown_feature = Unspecified
+
+_UI_CommunicationEvent_type = Communication Event
+_UI_NetworkEvent_type = Network Event
+_UI_NetworkConnected_type = Network Connected
+_UI_NetworkDisconnected_type = Network Disconnected
+_UI_ServerEvent_type = Server Event
+_UI_ServerConnected_type = Server Connected
+_UI_ServerDisconnected_type = Server Disconnected
+_UI_HealthService_type = Health Service
+_UI_HealthMonitorItem_type = Health Monitor Item
+_UI_HealthMonitorUpdate_type = Health Monitor Update
+_UI_HealthMonitorItem_item_feature = Item
+_UI_HealthMonitorItem_captureTimestamp_feature = Capture Timestamp
+_UI_HealthMonitorItem_interval_feature = Interval
+_UI_HealthMonitorItem_requestId_feature = Request Id
+_UI_HealthMonitorUpdate_requestId_feature = Request Id
+_UI_HealthMonitorUpdate_item_feature = Item
+_UI_HealthMonitorUpdate_interval_feature = Interval
+_UI_HealthMonitorUpdate_responseNow_feature = Response Now
+_UI_ItemType_CpuLoad_literal = CpuLoad
+_UI_ItemType_RamLoad_literal = RamLoad
+_UI_ItemType_CpuTemperature_literal = CpuTemperature
+_UI_ItemType_GpuTemperature_literal = GpuTemperature
+_UI_ItemType_Storage_literal = Storage
+_UI_ItemType_Network_literal = Network
+_UI_ProgramService_type = Program Service
+_UI_ProgramEventEvent_type = Program Event Event
+_UI_ProgramActuatorService_type = Program Actuator Service
+_UI_RemoteEvent_type = Remote Event
+_UI_RemoteActuator_type = Remote Actuator
+_UI_RemoteCode_type = Remote Code
+_UI_ProgramService_generatedTimestamp_feature = Generated Timestamp
+_UI_ProgramEventEvent_event_feature = Event
+_UI_ProgramActuatorService_actuator_feature = Actuator
+_UI_RemoteEvent_code_feature = Code
+_UI_RemoteActuator_code_feature = Code
+_UI_RemoteCode_name_feature = Name
+_UI_RemoteCode_value_feature = Value

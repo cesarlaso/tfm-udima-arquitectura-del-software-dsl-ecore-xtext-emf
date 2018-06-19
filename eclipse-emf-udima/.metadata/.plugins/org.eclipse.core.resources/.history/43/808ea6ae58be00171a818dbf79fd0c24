@@ -1,0 +1,70 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.communications.healths.tests;
+
+import es.udima.cesarlaso.tfm.communications.healths.HealthsFactory;
+import es.udima.cesarlaso.tfm.communications.healths.MonitorChangeItemInterval;
+
+import junit.textui.TestRunner;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Monitor Change Item Interval</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public class MonitorChangeItemIntervalTest extends HealthMonitorCommandTest {
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public static void main(String[] args) {
+		TestRunner.run(MonitorChangeItemIntervalTest.class);
+	}
+
+	/**
+	 * Constructs a new Monitor Change Item Interval test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public MonitorChangeItemIntervalTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Monitor Change Item Interval test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected MonitorChangeItemInterval getFixture() {
+		return (MonitorChangeItemInterval)fixture;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
+	@Override
+	protected void setUp() throws Exception {
+		setFixture(HealthsFactory.eINSTANCE.createMonitorChangeItemInterval());
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
+	@Override
+	protected void tearDown() throws Exception {
+		setFixture(null);
+	}
+
+} //MonitorChangeItemIntervalTest

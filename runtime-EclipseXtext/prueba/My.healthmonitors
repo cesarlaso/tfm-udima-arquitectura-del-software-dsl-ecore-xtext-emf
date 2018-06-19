@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<es.udima.cesarlaso.tfm.healthmonitors:HealthMonitorDataElements xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:es.udima.cesarlaso.tfm.healthmonitors="http://tfm.cesarlaso.udima.es/healthmonitors">
+  <elements xsi:type="es.udima.cesarlaso.tfm.healthmonitors:CpuLoadData" adquisitionTimestamp="1527420888"/>
+  <elements xsi:type="es.udima.cesarlaso.tfm.healthmonitors:RamLoadData" adquisitionTimestamp="1527420888" size="2048" free="1024"/>
+  <elements xsi:type="es.udima.cesarlaso.tfm.healthmonitors:NetworkData" adquisitionTimestamp="1527420888"/>
+  <elements xsi:type="es.udima.cesarlaso.tfm.healthmonitors:CpuLoadData" adquisitionTimestamp="1527420888"/>
+</es.udima.cesarlaso.tfm.healthmonitors:HealthMonitorDataElements>

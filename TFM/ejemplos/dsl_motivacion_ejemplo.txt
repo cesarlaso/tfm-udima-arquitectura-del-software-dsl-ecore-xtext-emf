@@ -1,0 +1,51 @@
+Programa "contador de monedas"
+
+remote_event MONEDA_LEIDA 1
+remote_event DAR_MONEDA 2
+
+define actuator parpadear_led_accion
+do
+	send_pulses on GPIO_02 with 250 ms and 100 ms during 3 times
+done
+
+when button_pressed GPIO_01 with 100 ms
+do
+	notify_action MONEDA_LEIDA
+	actuator parpadear_led_accion
+done
+
+when remote_event DAR_MONEDA_50
+do
+	send_pulses on GPIO_03 with 100 ms and 50 ms during 2 times
+	actuator parpadear_led_accion
+	remote_event_ack
+done
+
+when remote_event DAR_MONEDA_100
+do
+	//Simula dos monedas de 50
+	send_pulses on GPIO_03 with 100 ms and 50 ms during 4 times
+	actuator parpadear_led_accion
+	remote_event_ack
+done
+
+when rising on GPIO_02 with debounce of 50ms
+do
+	notify_action CAJON_MONEDAS_ABIERTO
+done
+
+when falling on GPIO_02 with debounce of 50ms
+do
+	notify_action CAJON_MONEDAS_CERRADO
+done
+
+when button_pressed_and_released on GPIO_05 with debounce of 100ms
+do
+	reset
+done
+
+when button_count on GPIO_04 with debounce of 100ms and 3 counts
+do
+	
+done
+

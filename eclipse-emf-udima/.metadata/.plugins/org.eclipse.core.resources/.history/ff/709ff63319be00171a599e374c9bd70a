@@ -1,0 +1,36 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.gpio.gpioevents.tests;
+
+import es.udima.cesarlaso.tfm.gpio.gpioevents.Interrupted;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Interrupted</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public abstract class InterruptedTest extends EventTest {
+
+	/**
+	 * Constructs a new Interrupted test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public InterruptedTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Interrupted test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected Interrupted getFixture() {
+		return (Interrupted)fixture;
+	}
+
+} //InterruptedTest

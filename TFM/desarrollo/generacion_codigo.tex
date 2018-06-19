@@ -1,0 +1,34 @@
+\section{Generación de código}
+
+\subsection{Objetivos}
+
+Debido a los requisitos del proyecto, esta sección se realizará como experimentación de uno de los módulos del \gls{dsl} , sin llegar a un código completo del \gls{dsl} debido a que el tiempo necesario para completar esta parte queda fuera del alcance del proyecto.
+
+\subsection{Xtend}
+
+La generación de código a partir de la gramática anteriormente especificada en \gls{xtext} se realiza mediante el sistema de plantillas del lenguaje de programación \gls{xtend} \cite{Xtend}.
+
+Este lenguaje, compilado y ejecutado en la \gls{jvm} cuenta con capacidades adicionales al lenguaje oficial Java.
+
+\gls{xtend} apareció el año 2011, cuando Java no contaba con elementos como programación funcional, comprobación de tipos adicional, métodos adicionales en clases, inferencia automática de tipos, etc En su web muestran el lenguaje \gls{xtend} como Java10 hoy en día, ya que muchas de las opciones prometidas en java10 tampoco han sido post puestas para versiones posteriores.
+
+Para este proyecto, la funcionalidad que no tiene java que tiene por ejemplo el lenguaje Scala (mediante la expansión de macros), es la posibilidad de tener plantillas con expresiones dentro del propio lenguaje.
+
+Una característica adicional de \gls{xtend} es que no compila directamente a \gls{bytecode} tal como lo hacen el resto de lenguajes alternativos de la \gls{jvm} como \textcite{Scala} o \textcite{Kotlin} , sino que transforma el lenguaje a código java, por lo que no requiere un \gls{runtime} adicional como estos otros lenguajes.
+
+
+Veamos un ejemplo en la figura \ref{fig:ejemplo_xtend} del código generado para convertir un atributo \gls{ecore} a código java final. 
+
+Podemos ver un ejemplo completo de la generación de código para uno de los módulos de comunicaciones en el anexo \ref{appendix:xtend_telemetry}.
+
+
+
+\begin{figure}
+	\centering
+	
+	\lstinputlisting[caption={}]{ejemplos/ejemplo_xtend.txt}
+	
+    \sourcepropia{}
+    \caption[Código Xtend generando plantilla java]{Código Xtend generando plantilla java.  Mediante el uso del API \gls{ecore} podemos acceder a los atributos de los modelos de forma fuertemente tipada. Interpolando estos en la plantilla, genemos código Java}
+    \label{fig:ejemplo_xtend}
+\end{figure}

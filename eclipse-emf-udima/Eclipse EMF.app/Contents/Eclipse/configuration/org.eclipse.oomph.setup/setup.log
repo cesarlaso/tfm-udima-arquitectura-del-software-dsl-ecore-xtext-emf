@@ -1,0 +1,11 @@
+[2018-03-07 22:05:53] Executing startup tasks
+[2018-03-07 22:05:53] Java(TM) SE Runtime Environment 1.8.0_131-b11
+[2018-03-07 22:05:53] Product self.product.version
+[2018-03-07 22:05:53] Workspace /Users/cesarlaso/runtime-EclipseXtext
+[2018-03-07 22:05:53] Bundle org.eclipse.oomph.setup 1.9.0.v20171221-1140, build=3349, branch=784f5d357a2e957a152af9e761ca3d2339b91829
+[2018-03-07 22:05:53] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171222-1315, build=3349, branch=784f5d357a2e957a152af9e761ca3d2339b91829
+[2018-03-07 22:05:53] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171221-1140, build=3349, branch=784f5d357a2e957a152af9e761ca3d2339b91829
+[2018-03-07 22:05:53] Performing Preference /instance/org.eclipse.core.resources/encoding = UTF-8
+[2018-03-07 22:05:53] Performing Preference /instance/org.eclipse.core.resources/refresh.lightweight.enabled = true
+[2018-03-07 22:05:53] Performing Preference /instance/org.eclipse.ui.editors/lineNumberRuler = true
+[2018-03-07 22:05:53] 

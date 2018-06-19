@@ -1,0 +1,57 @@
+IotProyect nevera_con_internet {
+	
+	product_code 10
+	version 1
+	devices {
+		esp8266 {
+			ssid "wifi" with_password "la clave"
+		}
+	}
+	servers {
+		java_server {
+			network_interface_address "0.0.0.0"
+			network_interface_port 8080
+		}
+	}
+	program {
+		gpio_aliases {
+			gpio_input_analog "peso_balda_verduras" connected_to_pin 1,
+			gpio_input_digital "recipiente_leche" connected_to_pin 2
+		}
+		
+		files {
+			file_path "fondo_inicio" with_path "/imagenes/inicio.png",
+			file_path "fondo_conectado_wifi" with_path "/imagenes/conectado_wifi.png",
+			file_path "fondo_conectado_servidor" with_path "/imagenes/conectado_servidor.png",
+			file_path "fondo_desconectado" with_path "/imagenes/desconectado.png"
+		}
+		
+		start_state "inicio_n"
+		
+		states {
+			state "inicio_n" {
+			    timer {
+			    	now {
+			    		background_image fondo_inicio auto
+			    	}
+			    },
+			    network_connected {
+			    	background_image fondo_conectado_wifi auto
+			    },
+			    network_disconnected {
+			    	background_image fondo_desconectado auto
+			    }
+			},
+			state "principal" {
+				analog_read_on_high peso_balda_verduras every 100 loops value_higher_than 3 {
+					background_image fondo_conectado_servidor auto 
+				}
+			}
+		}
+		
+	}
+	
+	
+	
+	
+} 

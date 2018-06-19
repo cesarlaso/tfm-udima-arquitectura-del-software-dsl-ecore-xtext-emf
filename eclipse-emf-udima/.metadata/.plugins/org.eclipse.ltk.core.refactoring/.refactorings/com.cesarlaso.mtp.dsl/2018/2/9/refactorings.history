@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;es.udima.cesarlaso.tfm.dsl/src/es.udima.tfm.cesarlaso.generator.java&apos;&#x0A;- Original project: &apos;com.cesarlaso.mtp.dsl&apos;&#x0A;- Destination element: &apos;es.udima.cesarlaso.tfm.dsl/src/es.udima.tfm.cesarlaso.generator.java&apos;&#x0A;- Original elements:&#x0A;     JavaSerializer.xtend&#x0A;     TelemetryGenerator.xtend" description="Copy files" destination="=es.udima.cesarlaso.tfm.dsl/src&lt;es.udima.tfm.cesarlaso.generator.java" element1="src/com/cesarlaso/mtp/generator/telemetry/JavaSerializer.xtend" element2="src/com/cesarlaso/mtp/generator/telemetry/TelemetryGenerator.xtend" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1519835843404" units="0" version="1.0"/>
+</session>

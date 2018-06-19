@@ -1,0 +1,36 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.gpio.gpioevents.tests;
+
+import es.udima.cesarlaso.tfm.gpio.gpioevents.AnalogRead;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Analog Read</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public abstract class AnalogReadTest extends EventTest {
+
+	/**
+	 * Constructs a new Analog Read test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public AnalogReadTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Analog Read test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected AnalogRead getFixture() {
+		return (AnalogRead)fixture;
+	}
+
+} //AnalogReadTest

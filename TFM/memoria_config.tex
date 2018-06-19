@@ -1,0 +1,172 @@
+\ifdefined\printedVersion
+  \documentclass[a4paper, 12pt]{book}
+\else
+  \documentclass[a4paper, 12pt, oneside, openany]{book}
+\fi
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\pdfgentounicode=1
+
+\usepackage[a4paper, inner=3cm, outer=3cm, top=5cm, bottom=3cm,headsep=1.5cm,headheight=4cm]{geometry}
+
+%\usepackage[a4paper, inner=3cm, outer=3cm, bindingoffset=.5cm, top=3.3cm,bottom=3cm,headsep=1cm,headheight=3cm]{geometry}
+
+
+%\usepackage{times}
+%\usepackage{mathpazo} % Use the Palatino font by default
+
+\usepackage[spanish,es-tabla]{babel} % Comenta esta línea si tu memoria es en inglés
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{float}  %% H para posicionar figuras
+\usepackage[nottoc, notlot, notlof, notindex]{tocbibind} %% Opciones de índice
+\usepackage[toc,page]{appendix}
+
+\usepackage{latexsym}  %% Logo LaTeX
+
+
+
+%\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{textcomp}
+
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{DSL orientado al IOT mediante arquitectura MDE - César Laso}}
+\lhead{\includegraphics[height=15mm]{images/udima_logo_horizontal.pdf}}
+\cfoot{\thepage}
+
+
+
+
+
+
+
+%\usepackage[backend=biber, sorting=ydnt,bibstyle=ieee]{biblatex}
+%\usepackage[backend=biber, style=alphabetic, sorting=ynt]{biblatex}
+\usepackage[backend=biber,style=numeric,sorting=nty]{biblatex}
+\addbibresource{bibliografia.bib}
+
+
+%\usepackage[unicode=true,pdfusetitle, bookmarks=true,bookmarksnumbered=false,bookmarksopen=false, breaklinks=false,pdfborder={0 0 0.7},backref=false,colorlinks=false]{hyperref}
+
+\usepackage{xspace} % Espaciado correcto detras de comandos.
+\usepackage{mathtools} % Arregla bastantes cosas de los entornos matemáticos por 
+\usepackage[acronym]{glossaries} % Glosarios
+\usepackage{makeidx}
+\usepackage{listingsutf8}
+
+%https://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+\usepackage[breaklinks=true,
+    unicode=true,
+    pdfusetitle, 
+    bookmarks=true,
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    %pdfborder={0 0 0.7},
+    backref=true,
+    colorlinks=true,
+    hidelinks,
+    pdfpagemode={UseOutlines},
+    pdfstartview={FitH},
+			pdfauthor={Cesar Laso},
+            pdftitle={Trabajo de Fin de Master - Master en Arquitectura del software},
+            pdfsubject={Diseño de un DSL orientado a dispositivos conectados a internet mediante arquitectura MDE},
+            pdfkeywords={MDA MDE MDSD DSL IOT Ecore UML Xtext Xtend}]{hyperref}
+
+\usepackage{breakcites} % Permite romper citas en saltos de línea.
+\usepackage{enumitem}
+
+%\usepackage{caption}
+\usepackage{subcaption}
+
+
+%\usepackage{multirow}
+%\usepackage{graphicx}
+
+%\usepackage{array}
+%\usepackage{placeins}
+%\usepackage{flafter}
+%\usepackage{fancyhdr}
+%\usepackage{newtxmath,newtxtext}
+%\usepackage{seqsplit}
+%\usepackage{titlesec} 
+%\usepackage{hyperref}
+
+%\usepackage{soulutf8}
+
+%\usepackage{tocvsec2} % Ignorar subsecciones de los anexos.
+%\usepackage{appendix} % Cambiar apéndice por anexo.
+
+
+
+
+\lstset{ 
+  basicstyle=\ttfamily\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  backgroundcolor=\color{white},
+  %backgroundcolor=\color{gray!10},
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  %commentstyle=\color{grey},    % comment style
+  deletekeywords={},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  inputencoding=utf8, 
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  language={},                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=none,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\footnotesize,
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname
+}
+  
+%\setlength{\parskip}{1em}
+\setlength{\parskip}{\baselineskip}
+
+\makeglossaries
+\input{glosario}
+
+\makeindex
+
+\newif\iftocs
+\tocstrue % Incluye en el índice general: la lista de tablas, lista de figuras y acrónimos.
+%\tocsfalse % Excluye en el índice general: la lista de tablas, lista de figuras y acrónimos.
+
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+
+%\newcommand{\source}[1]{\vspace{-10pt} \caption*{ \textit{Fuente:} {#1}} }
+
+\newcommand{\source}[1]{\caption*{ \textit{Fuente: {#1}}} }
+
+\newcommand{\sourcepropia}[1]{\source{Elaboración propia {#1}} }
+
+\newcommand{\captionmodeloclase}[1]{
+    \sourcepropia{}
+    \caption[Modelo {#1}. Diagrama de clases]{Modelo {#1}. Representación visual en formato diagrama de clases UML creada a partir del modelo Ecore mediante la transformación generada con Sirius}
+}
+
+\newcommand{\captionmodelotree}[1]{
+    \sourcepropia{}
+    \caption[Modelo {#1}. Representación Ecore tree]{Modelo {#1}. Representación visual en formato Ecore tree. La representación es generada por el propio entorno EMF}
+}

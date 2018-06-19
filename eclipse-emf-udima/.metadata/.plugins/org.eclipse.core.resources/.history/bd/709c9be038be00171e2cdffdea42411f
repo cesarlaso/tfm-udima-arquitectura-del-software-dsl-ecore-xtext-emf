@@ -1,0 +1,119 @@
+#
+
+pluginName = Gpio Editor
+providerName = www.example.org
+
+_UI_GpioEditor_menu = &Gpio Editor
+_UI_GpioeventsEditor_menu = &Gpioevents Editor
+_UI_GpioactuatorsEditor_menu = &Gpioactuators Editor
+
+_UI_CreateChild_menu_item = &New Child
+_UI_CreateSibling_menu_item = N&ew Sibling
+
+_UI_ShowPropertiesView_menu_item = Show &Properties View
+_UI_RefreshViewer_menu_item = &Refresh
+
+_UI_SelectionPage_label = Selection
+_UI_ParentPage_label = Parent
+_UI_ListPage_label = List
+_UI_TreePage_label = Tree
+_UI_TablePage_label = Table
+_UI_TreeWithColumnsPage_label = Tree with Columns
+_UI_ObjectColumn_label = Object
+_UI_SelfColumn_label = Self
+
+_UI_NoObjectSelected = Selected Nothing
+_UI_SingleObjectSelected = Selected Object: {0}
+_UI_MultiObjectSelected = Selected {0} Objects
+
+_UI_OpenEditorError_label = Open Editor
+
+_UI_Wizard_category = Example EMF Model Creation Wizards
+
+_UI_CreateModelError_message = Problems encountered in file "{0}"
+
+_UI_GpioModelWizard_label = Gpio Model
+_UI_GpioModelWizard_description = Create a new Gpio model
+
+_UI_GpioEditor_label = Gpio Model Editor
+
+_UI_GpioEditorFilenameDefaultBase = My
+_UI_GpioEditorFilenameExtensions = gpio
+
+_UI_GpioeventsModelWizard_label = Gpioevents Model
+_UI_GpioeventsModelWizard_description = Create a new Gpioevents model
+
+_UI_GpioeventsEditor_label = Gpioevents Model Editor
+
+_UI_GpioeventsEditorFilenameDefaultBase = My
+_UI_GpioeventsEditorFilenameExtensions = gpioevents
+
+_UI_GpioactuatorsModelWizard_label = Gpioactuators Model
+_UI_GpioactuatorsModelWizard_description = Create a new Gpioactuators model
+
+_UI_GpioactuatorsEditor_label = Gpioactuators Model Editor
+
+_UI_GpioactuatorsEditorFilenameDefaultBase = My
+_UI_GpioactuatorsEditorFilenameExtensions = gpioactuators
+
+_UI_Wizard_label = New
+
+_WARN_FilenameExtension = The file name must end in ''.{0}''
+_WARN_FilenameExtensions = The file name must have one of the following extensions: {0}
+
+_UI_ModelObject = &Model Object
+_UI_XMLEncoding = &XML Encoding
+_UI_XMLEncodingChoices = UTF-8 ASCII UTF-16 UTF-16BE UTF-16LE ISO-8859-1
+_UI_Wizard_initial_object_description = Select a model object to create
+
+_UI_FileConflict_label = File Conflict
+_WARN_FileConflict = There are unsaved changes that conflict with changes made outside the editor.  Do you wish to discard this editor's changes?
+
+_UI_HealthEditor_menu = &Health Editor
+_UI_HealthModelWizard_label = Health Model
+_UI_HealthModelWizard_description = Create a new Health model
+_UI_HealthEditor_label = Health Model Editor
+_UI_HealthEditorFilenameDefaultBase = My
+_UI_HealthEditorFilenameExtensions = health
+_UI_CommunicationEditor_menu = &Communication Editor
+_UI_StatusEditor_menu = &Status Editor
+_UI_CommandsEditor_menu = &Commands Editor
+_UI_CommunicationModelWizard_label = Communication Model
+_UI_CommunicationModelWizard_description = Create a new Communication model
+_UI_CommunicationEditor_label = Communication Model Editor
+_UI_CommunicationEditorFilenameDefaultBase = My
+_UI_CommunicationEditorFilenameExtensions = communication
+_UI_StatusModelWizard_label = Status Model
+_UI_StatusModelWizard_description = Create a new Status model
+_UI_StatusEditor_label = Status Model Editor
+_UI_StatusEditorFilenameDefaultBase = My
+_UI_StatusEditorFilenameExtensions = status
+_UI_CommandsModelWizard_label = Commands Model
+_UI_CommandsModelWizard_description = Create a new Commands model
+_UI_CommandsEditor_label = Commands Model Editor
+_UI_CommandsEditorFilenameDefaultBase = My
+_UI_CommandsEditorFilenameExtensions = commands
+_UI_ProgramsEditor_menu = &Programs Editor
+_UI_ProgramsModelWizard_label = Programs Model
+_UI_ProgramsModelWizard_description = Create a new Programs model
+_UI_ProgramsEditor_label = Programs Model Editor
+_UI_ProgramsEditorFilenameDefaultBase = My
+_UI_ProgramsEditorFilenameExtensions = programs
+_UI_DeploymentdevicesEditor_menu = &Deploymentdevices Editor
+_UI_DeploymentdevicesModelWizard_label = Deploymentdevices Model
+_UI_DeploymentdevicesModelWizard_description = Create a new Deploymentdevices model
+_UI_DeploymentdevicesEditor_label = Deploymentdevices Model Editor
+_UI_DeploymentdevicesEditorFilenameDefaultBase = My
+_UI_DeploymentdevicesEditorFilenameExtensions = deploymentdevices
+_UI_ProgrameventsEditor_menu = &Programevents Editor
+_UI_ProgrameventsModelWizard_label = Programevents Model
+_UI_ProgrameventsModelWizard_description = Create a new Programevents model
+_UI_ProgrameventsEditor_label = Programevents Model Editor
+_UI_ProgrameventsEditorFilenameDefaultBase = My
+_UI_ProgrameventsEditorFilenameExtensions = programevents
+_UI_ServerEditor_menu = &Server Editor
+_UI_ServerModelWizard_label = Server Model
+_UI_ServerModelWizard_description = Create a new Server model
+_UI_ServerEditor_label = Server Model Editor
+_UI_ServerEditorFilenameDefaultBase = My
+_UI_ServerEditorFilenameExtensions = server

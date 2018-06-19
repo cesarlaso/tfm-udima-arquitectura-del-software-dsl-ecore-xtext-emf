@@ -1,0 +1,14 @@
+helloworld :: ARDSL (a Bool Read) (a VOID Read) | ardsl a
+helloworld =
+    boolean ledOn.
+    int lastTime.
+    ardsl {
+        setup =
+        pinmode D13 OUTPUT :.
+        digitalWrite D13 (lit False), loop =
+        If (millis /. lit 500 >. lastTime) (
+            ledOn =. . ledOn >== b.
+            digitalWrite D13 b :.
+            lastTime =. lastTime +. lit 1
+        )
+    }

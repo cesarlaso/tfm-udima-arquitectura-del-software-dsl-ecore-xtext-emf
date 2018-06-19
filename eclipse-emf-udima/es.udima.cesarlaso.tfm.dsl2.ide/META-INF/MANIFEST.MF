@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: es.udima.cesarlaso.tfm.dsl2.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: es.udima.cesarlaso.tfm.dsl2.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: es.udima.cesarlaso.tfm.dsl2,
+ es.udima.cesarlaso.tfm,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: es.udima.tfm.cesarlaso.ide.contentassist.antlr,
+ es.udima.tfm.cesarlaso.ide.contentassist.antlr.internal
+

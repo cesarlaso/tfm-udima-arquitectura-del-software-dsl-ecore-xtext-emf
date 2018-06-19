@@ -1,0 +1,24 @@
+\section{Requisitos del proyecto}
+
+Queremos crear un lenguaje específico para productos IOT, para ello tendremos que:
+
+\begin{itemize}
+\item Especificar los elementos del lenguaje mediante \gls{ecore}.
+\item Especificar las transformaciones de estos elementos a lenguaje Java.
+\item Especificar la gramática del \gls{dsl} utilizando los elementos del lenguaje anterior.
+\item Crear un proyecto que sea capaz de parsear este lenguaje y poder ejecutarlo.
+\end{itemize}
+
+
+Igualmente, para la parte hardware/software, necesitamos crear una plataforma con la que podamos abstraer el hardware/software. Este subproyecto cuenta con los siguientes requisitos:
+
+\begin{itemize}
+
+\item Especificar de una forma genérica eventos generados por dispositivos \gls{iot}, basados en \gls{gpio}.
+\item Crear una plataforma base de despliegue.
+\item Protocolo de comunicación entre dispositivos y servidor.
+\item Monitorización de salud de los dispositivos (uso de cpu, ram, particiones, red).
+\item Generación de código base para servidor.
+
+\end{itemize}
+

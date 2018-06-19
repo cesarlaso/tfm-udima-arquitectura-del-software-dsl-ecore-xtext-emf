@@ -1,0 +1,8 @@
+rule "Lights on when paused or stopped"
+when
+    Item PlexTVStatus changed to Paused or 
+    Item PlexTVStatus changed to Stopped
+then 
+	logInfo("PlexLight", "Play to pause")
+	dimLiving.apply(80)
+end

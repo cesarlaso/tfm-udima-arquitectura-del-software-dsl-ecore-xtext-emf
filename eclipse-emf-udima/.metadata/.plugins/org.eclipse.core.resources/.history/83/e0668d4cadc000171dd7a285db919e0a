@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xmi:id="_j4NeUMCZEee4EJf_-AM2dQ" version="12.0.0.201704271200">
+  <semanticResources>My.ecore</semanticResources>
+  <semanticResources>My.genmodel</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.eclipse.resources.mgt/fcs/Resources.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/ModelDrivenPatternStrategy.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.pattern.ftask/egf/Model_driven_pattern_strategy_task.fcore</semanticResources>
+  <semanticResources>My1.ecore</semanticResources>
+  <semanticResources>My1.genmodel</semanticResources>
+  <semanticResources>http://www.eclipse.org/emf/2002/Ecore</semanticResources>
+  <semanticResources>My.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.pattern/egf/EMF_Pattern.fcore</semanticResources>
+  <semanticResources>platform:/plugin/org.eclipse.egf.emf.pattern.base/egf/EMF_Pattern_Base.fcore</semanticResources>
+  <semanticResources>Mya.fcore</semanticResources>
+</viewpoint:DAnalysis>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fcore:FactoryComponent xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:domain="http://www.eclipse.org/egf/1.0.0/domain"
+    xmlns:fcore="http://www.eclipse.org/egf/1.0.0/fcore" xmlns:fprod="http://www.eclipse.org/egf/1.0.0/fprod"
+    xmlns:ftask="http://www.eclipse.org/egf/1.0.0/ftask" xmlns:types="http://www.eclipse.org/egf/1.0.0/types"
+    xmi:id="_tckJcMCZEee4EJf_-AM2dQ" name="My.genmodel EMF Wrapper">
+  <viewpointContainer xmi:id="_tckJccCZEee4EJf_-AM2dQ">
+    <viewpoints xmi:type="domain:DomainViewpoint" xmi:id="_tckJcsCZEee4EJf_-AM2dQ">
+      <domains xmi:type="domain:EMFDomain" xmi:id="_tckJc8CZEee4EJf_-AM2dQ" helperImplementation="org.eclipse.egf.domain.emf.EMFDomainHelper"
+          uri="platform:/resource/aaaa/My.genmodel"/>
+      <domains xmi:type="domain:EMFDomain" xmi:id="_S7_6MMCsEee4EJf_-AM2dQ" helperImplementation="org.eclipse.egf.domain.emf.EMFDomainHelper"
+          uri="platform:/resource/aaaa/My1.genmodel"/>
+    </viewpoints>
+  </viewpointContainer>
+  <orchestration xmi:type="fprod:ProductionPlan" xmi:id="_tckJdMCZEee4EJf_-AM2dQ">
+    <invocations xmi:id="_tckJdcCZEee4EJf_-AM2dQ" invokedActivity="ftask:Task platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_E0utcP-KEd6BleG0RKg98A">
+      <invocationContractContainer xmi:id="_tckJdsCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJd8CZEee4EJf_-AM2dQ" invokedContract="platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_GjcSAP-KEd6BleG0RKg98A">
+          <type xmi:type="domain:TypeDomain" xmi:id="_tckJeMCZEee4EJf_-AM2dQ" domain="#_tckJc8CZEee4EJf_-AM2dQ"/>
+        </invocationContracts>
+      </invocationContractContainer>
+    </invocations>
+    <invocations xmi:id="_tckJecCZEee4EJf_-AM2dQ" invokedActivity="ftask:Task platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_o5wBQADyEd-IF6GN14qe5g">
+      <invocationContractContainer xmi:id="_tckJesCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJe8CZEee4EJf_-AM2dQ" invokedContract="platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_x4zwsAEjEd-sEofCqqFtwA">
+          <type xmi:type="domain:TypeDomain" xmi:id="_tckJfMCZEee4EJf_-AM2dQ" domain="#_tckJc8CZEee4EJf_-AM2dQ"/>
+        </invocationContracts>
+      </invocationContractContainer>
+    </invocations>
+    <invocations xmi:id="_tckJfcCZEee4EJf_-AM2dQ" invokedActivity="ftask:Task platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_tWWIYADyEd-IF6GN14qe5g">
+      <invocationContractContainer xmi:id="_tckJfsCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJf8CZEee4EJf_-AM2dQ" invokedContract="platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_xzsdcQDyEd-IF6GN14qe5g">
+          <type xmi:type="domain:TypeDomain" xmi:id="_tckJgMCZEee4EJf_-AM2dQ" domain="#_tckJc8CZEee4EJf_-AM2dQ"/>
+        </invocationContracts>
+      </invocationContractContainer>
+    </invocations>
+    <invocations xmi:id="_tckJgcCZEee4EJf_-AM2dQ" invokedActivity="ftask:Task platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_tv0_YADyEd-IF6GN14qe5g">
+      <invocationContractContainer xmi:id="_tckJgsCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJg8CZEee4EJf_-AM2dQ" invokedContract="platform:/plugin/org.eclipse.egf.emf.wrapper/fcs/EMF_Wrapper.fcore#_x7JJQQDyEd-IF6GN14qe5g">
+          <type xmi:type="domain:TypeDomain" xmi:id="_tckJhMCZEee4EJf_-AM2dQ" domain="#_tckJc8CZEee4EJf_-AM2dQ"/>
+        </invocationContracts>
+      </invocationContractContainer>
+    </invocations>
+    <invocations xmi:id="_tckJhcCZEee4EJf_-AM2dQ" invokedActivity="ftask:Task platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_yw92cBurEd-jaIqWGhF8eQ">
+      <invocationContractContainer xmi:id="_tckJhsCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJh8CZEee4EJf_-AM2dQ" invokedContract="platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_A4ZrMBusEd-jaIqWGhF8eQ">
+          <type xmi:type="domain:TypeDomain" xmi:id="_tckJiMCZEee4EJf_-AM2dQ" domain="#_tckJc8CZEee4EJf_-AM2dQ"/>
+        </invocationContracts>
+        <invocationContracts xmi:id="_tckJicCZEee4EJf_-AM2dQ" targetInvocationContract="#_tckJjcCZEee4EJf_-AM2dQ"
+            invokedContract="platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_Do1LcBusEd-jaIqWGhF8eQ"/>
+        <invocationContracts xmi:id="_tckJisCZEee4EJf_-AM2dQ" targetInvocationContract="#_tckJjsCZEee4EJf_-AM2dQ"
+            invokedContract="platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_EAYIwBusEd-jaIqWGhF8eQ"/>
+      </invocationContractContainer>
+    </invocations>
+    <invocations xmi:id="_tckJi8CZEee4EJf_-AM2dQ" invokedActivity="fcore:FactoryComponent platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_BxjIkAG0Ed-7fNNmMjB2jQ">
+      <invocationContractContainer xmi:id="_tckJjMCZEee4EJf_-AM2dQ">
+        <invocationContracts xmi:id="_tckJjcCZEee4EJf_-AM2dQ" sourceInvocationContract="#_tckJicCZEee4EJf_-AM2dQ"
+            invokedContract="fcore:FactoryComponentContract platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_Yp4VcAprEd-7fqY_JLtg2w"/>
+        <invocationContracts xmi:id="_tckJjsCZEee4EJf_-AM2dQ" sourceInvocationContract="#_tckJisCZEee4EJf_-AM2dQ"
+            invokedContract="fcore:FactoryComponentContract platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_7NKWkApbEd-pyqf4uNW3tw"/>
+        <invocationContracts xmi:id="_tckJj8CZEee4EJf_-AM2dQ" invokedContract="fcore:FactoryComponentContract platform:/plugin/org.eclipse.egf.emf.docgen.html/egf/EmfDocGenHtml.fcore#_AvXa4ApcEd-pyqf4uNW3tw">
+          <type xmi:type="types:TypeString" xmi:id="_tckJkMCZEee4EJf_-AM2dQ" value="html"/>
+        </invocationContracts>
+      </invocationContractContainer>
+    </invocations>
+  </orchestration>
+</fcore:FactoryComponent>

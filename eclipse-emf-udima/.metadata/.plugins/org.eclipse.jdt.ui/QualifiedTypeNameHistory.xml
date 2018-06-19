@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.gpiosactuators.PulseOutput"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.communications.Packet"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.communicationstatus.Ping"/>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.communicationstatus.Pong"/>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.programs.Program"/>
+<fullyQualifiedTypeName name="es.udima.cesarlaso.tfm.gpios.Pin"/>
+</qualifiedTypeNameHistroy>

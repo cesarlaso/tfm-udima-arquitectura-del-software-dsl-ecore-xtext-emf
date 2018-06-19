@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Gpio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.gpio.presentation.GpioModelWizardID"
+            name="%_UI_GpioModelWizard_label"
+            class="es.udima.cesarlaso.tfm.gpio.presentation.GpioModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GpioModelFile.gif">
+         <description>%_UI_GpioModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Gpio -->
+      <editor
+            id="es.udima.cesarlaso.tfm.gpio.presentation.GpioEditorID"
+            name="%_UI_GpioEditor_label"
+            icon="icons/full/obj16/GpioModelFile.gif"
+            extensions="gpio"
+            class="es.udima.cesarlaso.tfm.gpio.presentation.GpioEditor"
+            contributorClass="es.udima.cesarlaso.tfm.gpio.presentation.GpioActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Gpio -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.gpio.gpioactuators.presentation.GpioactuatorsModelWizardID"
+            name="%_UI_GpioactuatorsModelWizard_label"
+            class="es.udima.cesarlaso.tfm.gpio.gpioactuators.presentation.GpioactuatorsModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/GpioactuatorsModelFile.gif">
+         <description>%_UI_GpioactuatorsModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Gpio -->
+      <editor
+            id="es.udima.cesarlaso.tfm.gpio.gpioactuators.presentation.GpioactuatorsEditorID"
+            name="%_UI_GpioactuatorsEditor_label"
+            icon="icons/full/obj16/GpioactuatorsModelFile.gif"
+            extensions="gpioactuators"
+            class="es.udima.cesarlaso.tfm.gpio.gpioactuators.presentation.GpioactuatorsEditor"
+            contributorClass="es.udima.cesarlaso.tfm.gpio.gpioactuators.presentation.GpioactuatorsActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated Health -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="es.udima.cesarlaso.tfm.health.presentation.HealthModelWizardID"
+            name="%_UI_HealthModelWizard_label"
+            class="es.udima.cesarlaso.tfm.health.presentation.HealthModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/HealthModelFile.gif">
+         <description>%_UI_HealthModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated Health -->
+      <editor
+            id="es.udima.cesarlaso.tfm.health.presentation.HealthEditorID"
+            name="%_UI_HealthEditor_label"
+            icon="icons/full/obj16/HealthModelFile.gif"
+            extensions="health"
+            class="es.udima.cesarlaso.tfm.health.presentation.HealthEditor"
+            contributorClass="es.udima.cesarlaso.tfm.health.presentation.HealthActionBarContributor">
+      </editor>
+   </extension>
+</plugin>

@@ -1,0 +1,36 @@
+/**
+ */
+package es.udima.cesarlaso.tfm.gpio.gpioactuators.tests;
+
+import es.udima.cesarlaso.tfm.gpio.gpioactuators.AnalogOutput;
+
+/**
+ * <!-- begin-user-doc -->
+ * A test case for the model object '<em><b>Analog Output</b></em>'.
+ * <!-- end-user-doc -->
+ * @generated
+ */
+public abstract class AnalogOutputTest extends ActuatorTest {
+
+	/**
+	 * Constructs a new Analog Output test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public AnalogOutputTest(String name) {
+		super(name);
+	}
+
+	/**
+	 * Returns the fixture for this Analog Output test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected AnalogOutput getFixture() {
+		return (AnalogOutput)fixture;
+	}
+
+} //AnalogOutputTest
